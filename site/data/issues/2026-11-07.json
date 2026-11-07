@@ -1,8 +1,8 @@
 {
  "date": "2026-11-07",
  "mode": "Live run",
- "run_at": "2026-11-07T07:49:56+00:00",
- "trigger": "local",
+ "run_at": "2026-11-07T08:52:07+00:00",
+ "trigger": "workflow_dispatch",
  "model": "gemini-3.8-flash",
  "status": "quiet",
  "items": [],
