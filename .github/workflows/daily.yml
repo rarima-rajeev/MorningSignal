@@ -21,6 +21,7 @@ jobs:
       - run: python agent/run.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SITE_URL: https://morning-signal-inky.vercel.app/
       - name: Save the new issue
         run: |
           git config user.name "morning-signal-bot"

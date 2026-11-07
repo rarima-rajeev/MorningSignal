@@ -2,6 +2,8 @@
 
 A scheduled AI agent that writes a daily brief of public US drug-safety updates.
 
+Live site: https://morning-signal-inky.vercel.app
+
 | Step | What happens | File |
 |---|---|---|
 | 1. Wake up | GitHub Actions starts the agent every day at 12:00 UTC | `.github/workflows/daily.yml` |
