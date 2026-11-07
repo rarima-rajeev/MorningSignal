@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recall Record · Morning Signal</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#fffaf2; --card:#fff; --ink:#2a2118; --muted:#7a6c5d; --line:#f0e4d2; --teal:#1f7a6b; --rose:#c2452d; --rose-soft:#fde9e3; --sky1:#ffe7c2; --sky3:#fff6e8; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#16130f; --card:#211c16; --ink:#f4ebdf; --muted:#b3a593; --line:#3a3127; --teal:#6fd0bd; --rose:#ff8f75; --rose-soft:#3a201a; --sky1:#3b2a1c; --sky3:#1d1812; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 Inter, system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 28px 16px 48px; }
+  a { color: var(--teal); }
+  h1 { font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: 30px; margin: 8px 0 4px; }
+  .back { font-size: 14px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 18px 0; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag { font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 99px; background: var(--sky3); border: 1px solid var(--line); }
+  .tag.cls { background: var(--rose-soft); color: var(--rose); border-color: transparent; }
+  dl { display: grid; grid-template-columns: 170px 1fr; gap: 10px 16px; margin: 0; }
+  dt { color: var(--muted); font-size: 14px; }
+  dd { margin: 0; }
+  @media (max-width: 560px) { dl { grid-template-columns: 1fr; gap: 2px; } dd { margin-bottom: 10px; } }
+  .note { font-size: 13px; color: var(--muted); }
+  footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="./" id="back">← Back to Morning Signal</a>
+  <div id="out"><p class="note">Loading the record from openFDA…</p></div>
+  <footer>Independent project. Not affiliated with the FDA. AI-generated summaries of public data; not medical advice. Always check the linked source.</footer>
+</main>
+<script>
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const ymd = (s) => s ? new Date(`${s.slice(0, 4)}-${s.slice(4, 6)}-${s.slice(6, 8)}T00:00:00`).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" }) : "";
+const params = new URLSearchParams(location.search);
+const id = params.get("id") || "";
+if (params.get("from")) document.getElementById("back").href = "./#" + params.get("from");
+const raw = `https://api.fda.gov/drug/enforcement.json?search=recall_number:"${encodeURIComponent(id)}"`;
+
+fetch(raw).then((r) => r.ok ? r.json() : Promise.reject(r.status)).then((d) => {
+  const r = d.results[0];
+  const rows = [
+    ["Recalling firm", `${r.recalling_firm}${r.city ? ", " + r.city : ""}${r.state ? ", " + r.state : ""}, ${r.country}`],
+    ["Product", r.product_description],
+    ["Reason for recall", r.reason_for_recall],
+    ["Quantity", r.product_quantity],
+    ["Lot / code info", r.code_info],
+    ["Distribution", r.distribution_pattern],
+    ["Who started it", r.voluntary_mandated],
+    ["Recall started", ymd(r.recall_initiation_date)],
+    ["FDA classified", ymd(r.center_classification_date)],
+    ["In FDA report", ymd(r.report_date)],
+  ].filter(([, v]) => v);
+  document.getElementById("out").innerHTML = `
+    <h1>💊 Recall ${esc(r.recall_number)}</h1>
+    <div class="tags"><span class="tag cls">${esc(r.classification)}</span><span class="tag">${esc(r.status)}</span><span class="tag">${esc(r.product_type)}</span></div>
+    <div class="card"><dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl></div>
+    <p class="note">Shown live from the official openFDA API (last updated ${esc(d.meta.last_updated)}). openFDA says its records are unvalidated.
+      Class I = most serious, Class III = least. <a href="${esc(raw)}" target="_blank" rel="noopener">View raw openFDA record ↗</a></p>`;
+}).catch(() => {
+  document.getElementById("out").innerHTML = `<p>Could not load this record from openFDA right now. <a href="${esc(raw)}" target="_blank" rel="noopener">Try the raw openFDA record ↗</a></p>`;
+});
+</script>
+</body>
+</html>

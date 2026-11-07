@@ -224,7 +224,8 @@ function render() {
           <div class="ico">${rec ? "💊" : "📋"}</div>
           <div><div class="kind">${rec ? "Recall" : "Label warning"} · ${esc(x.id.split("@")[0].slice(0, 13))}</div>
           ${esc(x.summary ?? x.name + " (no AI summary: AI limit reached)")}
-          <a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">${rec ? "openFDA record ↗" : "DailyMed label ↗"}</a></div></div>`;
+          ${rec ? `<a class="src" href="record.html?id=${encodeURIComponent(x.id)}&from=${i.date}">FDA recall record →</a>`
+                : `<a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">DailyMed label ↗</a>`}</div></div>`;
       }).join("") || '<div class="quiet">Nothing in this filter.</div>'}</div>`;
     if (i.why_it_matters) body += `<div class="why"><span class="ico">☀️</span><div><b>Why it matters for a pharma team:</b> ${esc(i.why_it_matters.text)}
       ${i.why_it_matters.sources.map((s, n) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">[${n + 1}]</a>`).join(" ")}</div></div>`;
