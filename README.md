@@ -2,7 +2,7 @@
 
 A scheduled AI agent that writes a daily brief of public US drug-safety updates.
 
-Live site: https://morning-signal-inky.vercel.app
+Live site: https://morning-signal-ai.vercel.app
 
 | Step | What happens | File |
 |---|---|---|
