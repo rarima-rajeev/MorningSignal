@@ -197,12 +197,38 @@ def ymd(d):
     return d.strftime("%Y%m%d")
 
 
+def write_brief(issue):
+    """The text of today's notification. GitHub Actions posts it as an issue, and GitHub emails it."""
+    day = dt.date.fromisoformat(issue["date"]).strftime("%b %-d")
+    site = os.environ.get("SITE_URL", "")
+    if issue["status"] == "quiet":
+        title, lines = f"Morning Signal, {day}: quiet morning", ["No new drug recalls or label warnings in openFDA since the last report."]
+    elif issue["status"] == "paused":
+        title, lines = f"Morning Signal, {day}: paused (AI limit reached)", [f"{len(issue['items'])} new records found, but the Gemini spend cap was hit, so there are no summaries today."]
+    else:
+        recalls = sum(i["kind"] == "Recall" for i in issue["items"])
+        title = f"Morning Signal, {day}: {recalls} recalls, {len(issue['items']) - recalls} label warnings"
+        link = lambda i: f"{site}record.html?id={i['id']}" if site and i["kind"] == "Recall" else i["url"]
+        lines = [f"- {i['summary']} ([source]({link(i)}))" for i in issue["items"][:15]]
+        if len(issue["items"]) > 15:
+            lines.append(f"- ...and {len(issue['items']) - 15} more on the site.")
+        if issue["why_it_matters"]:
+            lines += ["", f"**Why it matters for a pharma team:** {issue['why_it_matters']['text']}"]
+    if site:
+        lines += ["", f"Full brief: {site}#{issue['date']}"]
+    lines += ["", "_AI-generated summaries of public openFDA data; not medical advice. Always check the linked source._"]
+    (ROOT / "brief_title.txt").write_text(title)
+    (ROOT / "brief.md").write_text("\n".join(lines))
+
+
 def live_run(today):
     start = today - dt.timedelta(days=LOOKBACK_DAYS)
     seen = already_reported()
     items = [i for i in fetch(ymd(start), ymd(today)) if i["id"] not in seen]
     print(f"Live run {today}: {len(items)} new items")
-    save(build_issue(today.isoformat(), items, "Live run"))
+    issue = build_issue(today.isoformat(), items, "Live run")
+    save(issue)
+    write_brief(issue)
 
 
 def backfill(today, days=30):

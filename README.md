@@ -9,6 +9,7 @@ A scheduled AI agent that writes a daily brief of public US drug-safety updates.
 | 3. Summarise | Gemini writes one line per item and one "why it matters" line (retries on errors, logs tokens) | `agent/run.py` |
 | 4. Check | Lines that don't point at a fetched record are dropped; firm/drug name must match the source | `agent/run.py` |
 | 5. Publish | Issue saved as JSON, committed, and the static site shows it | `site/` |
+| 6. Notify | Posts the brief as a GitHub issue that mentions the owner, so GitHub emails it | `.github/workflows/daily.yml` |
 
 Quiet days say so. If the Gemini spend cap is hit, the issue says "Paused: AI limit reached" and still lists the raw records.
 
