@@ -173,13 +173,12 @@ let index, days, filter = "all", current;
 async function load() {
   index = await (await fetch("data/index.json", { cache: "no-store" })).json();
   days = [...index.issues].reverse(); // oldest first, left to right
-  const total = index.issues.reduce((a, r) => a + (r.inr || 0), 0);
   const items = index.issues.reduce((a, r) => a + r.count, 0);
   $("stats").innerHTML = [
     ["Last run", fmtTime(index.last_run)],
     ["Live runs so far", index.issues.filter(isLive).length],
     ["Items summarised", items],
-    ["Total AI cost", "₹" + total.toFixed(2)],
+    ["Mornings covered", index.issues.length],
   ].map(([k, v]) => `<div class="stat"><span>${k}</span><b>${v}</b></div>`).join("");
 
   const max = Math.max(...days.map((d) => d.count), 1);
@@ -239,11 +238,10 @@ function render() {
       <span>✓ ${i.checks.name_matches_source}/${i.checks.lines} name the firm or drug from the source</span>
       <span>✓ ${i.checks.dropped_unsourced} made-up lines dropped</span></div>`;
   }
-  const cost = i.cost ? ` · AI cost ₹${i.cost.inr.toFixed(2)} (${(i.cost.tokens_in + i.cost.tokens_out).toLocaleString()} tokens)` : "";
   $("issue").innerHTML = `<div class="issue-head"><h2>${fmtDate(i.date)}</h2>${badge(i)}
       <div class="nav"><button id="prev" ${pos <= 0 ? "disabled" : ""}>← Earlier</button><button id="next" ${pos >= days.length - 1 ? "disabled" : ""}>Later →</button></div></div>
     ${body}
-    <div class="meta">Generated ${fmtTime(i.run_at)} by ${i.trigger === "schedule" ? "the daily schedule" : i.trigger === "local" ? "a local run" : "a manual run"} · ${esc(i.model)}${cost}</div>`;
+    <div class="meta">Generated ${fmtTime(i.run_at)} by ${i.trigger === "schedule" ? "the daily schedule" : i.trigger === "local" ? "a local run" : "a manual run"} · ${esc(i.model)}</div>`;
   $("prev").onclick = () => step(-1);
   $("next").onclick = () => step(1);
   document.querySelectorAll(".chip").forEach((c) => c.onclick = () => { filter = c.dataset.f; render(); });

@@ -26,7 +26,7 @@ python3 -m http.server 3008 --directory site
 ```
 
 ## Results so far
-- 30-day backfill (2026-11-07): 76 items over 7 days; total AI cost ₹1.56.
+- 30-day backfill (2026-11-07): 76 items over 7 days. Token use per run is still logged in each issue file.
 - Spot check of 10 random summaries vs source: 9 supported, 1 partly, 0 not (details on the site).
 
 ## Notes on openFDA terms
