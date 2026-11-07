@@ -1,0 +1,253 @@
+{
+ "last_run": "2026-11-07T07:49:56+00:00",
+ "issues": [
+  {
+   "date": "2026-11-07",
+   "mode": "Live run",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:56+00:00"
+  },
+  {
+   "date": "2026-11-06",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:21+00:00"
+  },
+  {
+   "date": "2026-11-05",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:21+00:00"
+  },
+  {
+   "date": "2026-11-04",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:21+00:00"
+  },
+  {
+   "date": "2026-11-03",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:21+00:00"
+  },
+  {
+   "date": "2026-11-02",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:21+00:00"
+  },
+  {
+   "date": "2026-11-01",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:21+00:00"
+  },
+  {
+   "date": "2026-10-31",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:21+00:00"
+  },
+  {
+   "date": "2026-10-30",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:21+00:00"
+  },
+  {
+   "date": "2026-10-29",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:21+00:00"
+  },
+  {
+   "date": "2026-10-28",
+   "mode": "Backfilled 2026-11-07",
+   "status": "ok",
+   "count": 29,
+   "inr": 0.496,
+   "run_at": "2026-11-07T07:49:09+00:00"
+  },
+  {
+   "date": "2026-10-27",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:09+00:00"
+  },
+  {
+   "date": "2026-10-26",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:09+00:00"
+  },
+  {
+   "date": "2026-10-25",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:09+00:00"
+  },
+  {
+   "date": "2026-10-24",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:09+00:00"
+  },
+  {
+   "date": "2026-10-23",
+   "mode": "Backfilled 2026-11-07",
+   "status": "ok",
+   "count": 2,
+   "inr": 0.113,
+   "run_at": "2026-11-07T07:49:03+00:00"
+  },
+  {
+   "date": "2026-10-22",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:49:03+00:00"
+  },
+  {
+   "date": "2026-10-21",
+   "mode": "Backfilled 2026-11-07",
+   "status": "ok",
+   "count": 5,
+   "inr": 0.125,
+   "run_at": "2026-11-07T07:48:59+00:00"
+  },
+  {
+   "date": "2026-10-20",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:48:59+00:00"
+  },
+  {
+   "date": "2026-10-19",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:48:59+00:00"
+  },
+  {
+   "date": "2026-10-18",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:48:59+00:00"
+  },
+  {
+   "date": "2026-10-17",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:48:59+00:00"
+  },
+  {
+   "date": "2026-10-16",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:48:59+00:00"
+  },
+  {
+   "date": "2026-10-15",
+   "mode": "Backfilled 2026-11-07",
+   "status": "ok",
+   "count": 1,
+   "inr": 0.052,
+   "run_at": "2026-11-07T07:48:55+00:00"
+  },
+  {
+   "date": "2026-10-14",
+   "mode": "Backfilled 2026-11-07",
+   "status": "ok",
+   "count": 37,
+   "inr": 0.662,
+   "run_at": "2026-11-07T07:48:38+00:00"
+  },
+  {
+   "date": "2026-10-13",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:48:38+00:00"
+  },
+  {
+   "date": "2026-10-12",
+   "mode": "Backfilled 2026-11-07",
+   "status": "ok",
+   "count": 1,
+   "inr": 0.053,
+   "run_at": "2026-11-07T07:48:35+00:00"
+  },
+  {
+   "date": "2026-10-11",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:48:35+00:00"
+  },
+  {
+   "date": "2026-10-10",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:48:35+00:00"
+  },
+  {
+   "date": "2026-10-09",
+   "mode": "Backfilled 2026-11-07",
+   "status": "quiet",
+   "count": 0,
+   "inr": 0,
+   "run_at": "2026-11-07T07:48:35+00:00"
+  },
+  {
+   "date": "2026-10-08",
+   "mode": "Backfilled 2026-11-07",
+   "status": "ok",
+   "count": 1,
+   "inr": 0.054,
+   "run_at": "2026-11-07T07:48:31+00:00"
+  }
+ ]
+}

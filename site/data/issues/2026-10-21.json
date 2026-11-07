@@ -1,0 +1,99 @@
+{
+ "date": "2026-10-21",
+ "mode": "Backfilled 2026-11-07",
+ "run_at": "2026-11-07T07:48:59+00:00",
+ "trigger": "local",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "D-0041-2027",
+   "kind": "Recall",
+   "date": "20261021",
+   "name": "Houston Rx LLC",
+   "facts": "Class II recall by Houston Rx LLC. Product: Sermorelin, 1 mg/mL, 10 ml vial, Sterile injectable solution, RX Only, Houston RX LLC, 15430 Vantage Parkway E STE 220, Houston, TX 77032.. Reason: Lack of process control. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0041-2027\"",
+   "summary": "Houston Rx LLC has initiated a Class II recall for Sermorelin injectable solution due to a lack of process control.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0038-2027",
+   "kind": "Recall",
+   "date": "20261021",
+   "name": "Teva Pharmaceuticals USA, Inc",
+   "facts": "Class II recall by Teva Pharmaceuticals USA, Inc. Product: Metoclopramide Tablets, USP, 5 mg, [100 or 500] Tablets per bottle, Rx Only, Manufactured for: Teva Pharmaceuticals, Parsippany, NJ 07054.  NDC 100 Tablets: 0093-2204-01; NDC 500 Tablets: 0093-2204-05. Reason: Presence of Foreign Tablets/Capsules. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0038-2027\"",
+   "summary": "Teva Pharmaceuticals USA, Inc. is recalling Metoclopramide Tablets due to the presence of foreign tablets or capsules.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0042-2027",
+   "kind": "Recall",
+   "date": "20261021",
+   "name": "American Health Packaging",
+   "facts": "Class II recall by American Health Packaging. Product: Metoclopramide Tablets, USP, 5 mg, 100 Tablets (10 x 10), Rx Only, Distributed by: American Health Packaging, Columbus, Ohio 43217.  NDC Carton: 60687-620-01; NDC Unit Dose: 60687-620-11. Reason: Presence of Foreign Tablets/Capsules. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0042-2027\"",
+   "summary": "American Health Packaging recalled Metoclopramide Tablets following reports of foreign tablets or capsules found in the product.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0039-2027",
+   "kind": "Recall",
+   "date": "20261021",
+   "name": "Zydus Pharmaceuticals (USA) Inc",
+   "facts": "Class II recall by Zydus Pharmaceuticals (USA) Inc. Product: Hydrocortisone Sodium Succinate for Injection, USP 100 mg/vial, 1 Vial, Rx Only, Manufactured by: Zydus Lifesciences Ltd., Vadodara - 391510 India, Distributed by: Zydus Pharmaceuticals (USA) Inc., Pennington, NJ 08534, NDC 70710-1907-1.. Reason: Failed Impurities/Degradation Specifications.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0039-2027\"",
+   "summary": "Zydus Pharmaceuticals (USA) Inc. is recalling Hydrocortisone Sodium Succinate for Injection because it failed impurities and degradation specifications.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0040-2027",
+   "kind": "Recall",
+   "date": "20261021",
+   "name": "Houston Rx LLC",
+   "facts": "Class II recall by Houston Rx LLC. Product: Tirzepatide/Niacinamide 2mL vial (40 MG per Vial) Inj 20mg/2mg/mL, RX Only, Houston RX LLC, 15430 Vantage Parkway E STE 220, Houston, TX 77032.. Reason: Lack of assurance of sterility.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0040-2027\"",
+   "summary": "Houston Rx LLC recalled Tirzepatide/Niacinamide injection due to a lack of assurance of sterility.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "These ongoing recalls highlight critical quality and safety concerns across multiple manufacturers, including foreign tablet contamination, sterility assurance failures, lack of process control, and out-of-specification impurities [D-0041-2027, D-0038-2027, D-0042-2027, D-0039-2027, D-0040-2027].",
+  "sources": [
+   {
+    "id": "D-0041-2027",
+    "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0041-2027\""
+   },
+   {
+    "id": "D-0038-2027",
+    "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0038-2027\""
+   },
+   {
+    "id": "D-0042-2027",
+    "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0042-2027\""
+   },
+   {
+    "id": "D-0039-2027",
+    "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0039-2027\""
+   },
+   {
+    "id": "D-0040-2027",
+    "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0040-2027\""
+   }
+  ]
+ },
+ "checks": {
+  "lines": 5,
+  "linked_to_source": 5,
+  "name_matches_source": 5,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 718,
+  "tokens_out": 475,
+  "usd": 0.0014,
+  "inr": 0.125
+ }
+}

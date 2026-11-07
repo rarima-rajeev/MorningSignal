@@ -1,0 +1,43 @@
+{
+ "date": "2026-10-08",
+ "mode": "Backfilled 2026-11-07",
+ "run_at": "2026-11-07T07:48:31+00:00",
+ "trigger": "local",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "c10e7eb1-0155-43ff-aa56-8cd468e8e84d@20261008",
+   "kind": "Label update (boxed warning)",
+   "date": "20261008",
+   "name": "dantrolene sodium",
+   "facts": "Updated label for dantrolene sodium (REMEDYREPACK INC.). Boxed warning: Dantrolene sodium has a potential for hepatotoxicity, and should not be used in conditions other than those recommended. Symptomatic hepatitis (fatal and non-fatal) has been reported at various dose levels of the drug. The incidence reported in patients taking up to 400 mg/day is much lower than in those taking doses of 800 mg or more per day. Even sporadic short courses of these higher dose levels within a treatment regimen markedly increased the risk of serious hepatic injury. Liver dysfunctio",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c10e7eb1-0155-43ff-aa56-8cd468e8e84d",
+   "summary": "RemedyRepack Inc. updated the label for dantrolene sodium with a boxed warning regarding the potential for hepatotoxicity and symptomatic fatal or non-fatal hepatitis.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "This boxed warning update highlights critical safety and labeling information regarding dose-dependent hepatotoxicity and serious hepatic injury associated with dantrolene sodium (c10e7eb1-0155-43ff-aa56-8cd468e8e84d@20261008).",
+  "sources": [
+   {
+    "id": "c10e7eb1-0155-43ff-aa56-8cd468e8e84d@20261008",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c10e7eb1-0155-43ff-aa56-8cd468e8e84d"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 1,
+  "linked_to_source": 1,
+  "name_matches_source": 1,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 311,
+  "tokens_out": 207,
+  "usd": 0.00061,
+  "inr": 0.054
+ }
+}

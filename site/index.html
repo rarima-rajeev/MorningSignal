@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Morning Signal</title>
+<meta name="description" content="A daily AI brief of public drug-safety updates, written by a scheduled agent.">
+<style>
+  :root { --bg:#fbfaf7; --card:#fff; --ink:#1d1d1b; --muted:#6b6b66; --line:#e6e3dc; --accent:#2f5d50; --warn:#9a5b00; --soft:#eef3f1; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151614; --card:#1e201d; --ink:#ecebe6; --muted:#a3a29b; --line:#33352f; --accent:#7fb8a6; --warn:#e0a54a; --soft:#22302b; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: 30px; margin: 0; letter-spacing: -0.5px; }
+  h2 { font-size: 19px; margin: 0 0 12px; }
+  a { color: var(--accent); }
+  .sub { color: var(--muted); margin: 4px 0 20px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; margin-bottom: 18px; }
+  .stamp { display:flex; flex-wrap:wrap; gap: 8px 24px; font-size: 14px; }
+  .stamp b { display:block; font-size: 15px; }
+  .stamp span { color: var(--muted); }
+  .steps { display:grid; grid-template-columns: repeat(4, 1fr); gap: 8px; counter-reset: s; }
+  .steps div { background: var(--soft); border-radius: 8px; padding: 10px; font-size: 14px; }
+  .steps div::before { counter-increment: s; content: counter(s) ". "; font-weight: 700; }
+  @media (max-width: 640px) { .steps { grid-template-columns: 1fr 1fr; } }
+  .badge { display:inline-block; font-size: 12px; padding: 2px 8px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+  .badge.live { color: var(--accent); border-color: var(--accent); }
+  .badge.paused { color: var(--warn); border-color: var(--warn); }
+  ul.items { list-style: none; padding: 0; margin: 0; }
+  ul.items li { padding: 10px 0; border-top: 1px solid var(--line); }
+  ul.items li:first-child { border-top: 0; }
+  .kind { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; }
+  .why { background: var(--soft); border-radius: 8px; padding: 12px; margin-top: 12px; }
+  .meta { font-size: 13px; color: var(--muted); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  td, th { text-align: left; padding: 7px 6px; border-top: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 500; border-top: 0; }
+  tr.sel td { background: var(--soft); }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Morning Signal</h1>
+  <p class="sub">A daily AI brief of public US drug-safety updates, written by a scheduled agent that runs every morning on its own.</p>
+
+  <div class="card stamp" id="stamp">Loading…</div>
+
+  <div class="card">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div><b>Wake up.</b> GitHub Actions starts the agent every day at 12:00 UTC. No laptop needed.</div>
+      <div><b>Fetch.</b> Pulls new drug recalls and boxed-warning label updates from the official openFDA API.</div>
+      <div><b>Summarise.</b> Gemini writes one plain line per item, plus one "why it matters" line.</div>
+      <div><b>Check &amp; publish.</b> Every line must link to a real source record, or it is dropped. Then the site updates.</div>
+    </div>
+  </div>
+
+  <div class="card" id="issue">Loading…</div>
+
+  <div class="card">
+    <h2>Past issues</h2>
+    <table id="archive"><thead><tr><th>Date</th><th>Run</th><th class="num">Items</th><th class="num">AI cost</th></tr></thead><tbody></tbody></table>
+  </div>
+
+  <div class="card" id="spot"></div>
+
+  <footer>Independent project. Not affiliated with the FDA. AI-generated summaries of public data; not medical advice. Always check the linked source.
+    Data: <a href="https://open.fda.gov/">openFDA</a> (public domain, <a href="https://open.fda.gov/terms/">terms</a>); openFDA records are unvalidated and published weekly, so many days are quiet.</footer>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const fmtDate = (d) => new Date(d + "T00:00:00").toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short", year: "numeric" });
+const fmtTime = (t) => new Date(t).toLocaleString(undefined, { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZoneName: "short" });
+const badge = (r) => r.status === "paused" ? '<span class="badge paused">Paused: AI limit reached</span>'
+  : `<span class="badge ${r.mode === "Live run" ? "live" : ""}">${esc(r.mode)}</span>`;
+let index;
+
+async function load() {
+  index = await (await fetch("data/index.json", { cache: "no-store" })).json();
+  const live = index.issues.filter((r) => r.mode === "Live run");
+  const total = index.issues.reduce((a, r) => a + (r.inr || 0), 0);
+  $("stamp").innerHTML = `
+    <div><span>Last run</span><b>${fmtTime(index.last_run)}</b></div>
+    <div><span>Schedule</span><b>Daily, 12:00 UTC</b></div>
+    <div><span>Live runs so far</span><b>${live.length}</b></div>
+    <div><span>Total AI cost, all issues</span><b>₹${total.toFixed(2)}</b></div>`;
+  $("archive").querySelector("tbody").innerHTML = index.issues.map((r) => `
+    <tr data-d="${r.date}"><td><a href="#${r.date}">${fmtDate(r.date)}</a></td><td>${badge(r)}</td>
+    <td class="num">${r.count || "Quiet"}</td><td class="num">${r.inr ? "₹" + r.inr.toFixed(2) : "–"}</td></tr>`).join("");
+  show();
+  spot();
+}
+
+async function show() {
+  const date = location.hash.slice(1) || index.issues[0].date;
+  document.querySelectorAll("#archive tr").forEach((tr) => tr.classList.toggle("sel", tr.dataset.d === date));
+  const i = await (await fetch(`data/issues/${date}.json`, { cache: "no-store" })).json();
+  let body;
+  if (i.status === "quiet") {
+    body = `<p>Quiet day: 0 new safety items in openFDA since the last report.</p>`;
+  } else {
+    body = `<ul class="items">${i.items.map((x) => `<li><div class="kind">${esc(x.kind)} · ${esc(x.id.split("@")[0])}</div>
+      ${esc(x.summary ?? x.name + " (no AI summary: AI limit reached)")} <a href="${esc(x.url)}" target="_blank" rel="noopener">Source</a></li>`).join("")}</ul>`;
+    if (i.why_it_matters) body += `<div class="why"><b>Why it matters for a pharma team:</b> ${esc(i.why_it_matters.text)}
+      ${i.why_it_matters.sources.map((s, n) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">[${n + 1}]</a>`).join(" ")}</div>`;
+    if (i.checks) body += `<div class="meta">Checks: ${i.checks.linked_to_source}/${i.checks.lines} lines link to a real source record ·
+      ${i.checks.name_matches_source}/${i.checks.lines} name the firm or drug from the source · ${i.checks.dropped_unsourced} unsourced lines dropped</div>`;
+  }
+  const cost = i.cost ? ` · AI cost ₹${i.cost.inr.toFixed(2)} (${i.cost.tokens_in + i.cost.tokens_out} tokens, ${esc(i.model)})` : "";
+  $("issue").innerHTML = `<h2>${fmtDate(i.date)} ${badge(i)}</h2>${body}
+    <div class="meta">Generated ${fmtTime(i.run_at)} by ${i.trigger === "schedule" ? "the daily schedule" : i.trigger === "local" ? "a local run" : "a manual run"}${cost}</div>`;
+}
+
+async function spot() {
+  const s = await (await fetch("data/spotcheck.json")).json();
+  const n = (g) => s.results.filter((r) => r.grade === g).length;
+  $("spot").innerHTML = `<h2>Spot check: ${n("supported")}/${s.results.length} supported, ${n("partly")} partly, ${n("not")} not</h2>
+    <p class="meta" style="margin-top:0">${esc(s.how)}</p>
+    <table><tbody>${s.results.map((r) => `<tr><td>${esc(r.id.split("@")[0])}</td><td>${esc(r.grade)}</td><td>${esc(r.note)}</td></tr>`).join("")}</tbody></table>
+    <p class="meta">${esc(s.why_it_matters_check)}</p><p class="meta">${esc(s.known_limit)}</p>`;
+}
+
+addEventListener("hashchange", show);
+load();
+</script>
+</body>
+</html>

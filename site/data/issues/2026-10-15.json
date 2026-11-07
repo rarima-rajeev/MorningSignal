@@ -1,0 +1,43 @@
+{
+ "date": "2026-10-15",
+ "mode": "Backfilled 2026-11-07",
+ "run_at": "2026-11-07T07:48:55+00:00",
+ "trigger": "local",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "bd9fea26-0236-d437-c7df-4b7636210875@20261015",
+   "kind": "Label update (boxed warning)",
+   "date": "20261015",
+   "name": "Tacrolimus",
+   "facts": "Updated label for Tacrolimus (Panacea Biotec Limited). Boxed warning: WARNING: MALIGNANCIES AND SERIOUS INFECTIONS Increased risk for developing serious infections and malignancies with tacrolimus or other immunosuppressants that may lead to hospitalization or death. ( 5.1 , 5.2 ) WARNING: MALIGNANCIES AND SERIOUS INFECTIONS See full prescribing information for complete boxed warning Increased risk for developing serious infections and malignancies with tacrolimus or other immunosuppressants that may lead to hospitalization or death. ( 5.1 , 5.2 )",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd9fea26-0236-d437-c7df-4b7636210875",
+   "summary": "Panacea Biotec Limited updated the label for Tacrolimus to include a boxed warning regarding risks of serious infections and malignancies.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "This boxed warning update for Tacrolimus highlights critical safety and labeling requirements regarding risks of malignancies and serious infections (bd9fea26-0236-d437-c7df-4b7636210875@20261015).",
+  "sources": [
+   {
+    "id": "bd9fea26-0236-d437-c7df-4b7636210875@20261015",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd9fea26-0236-d437-c7df-4b7636210875"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 1,
+  "linked_to_source": 1,
+  "name_matches_source": 1,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 309,
+  "tokens_out": 195,
+  "usd": 0.00058,
+  "inr": 0.052
+ }
+}

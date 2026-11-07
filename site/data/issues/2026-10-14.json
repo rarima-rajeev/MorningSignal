@@ -1,0 +1,407 @@
+{
+ "date": "2026-10-14",
+ "mode": "Backfilled 2026-11-07",
+ "run_at": "2026-11-07T07:48:38+00:00",
+ "trigger": "local",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "D-0006-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "K.C. Pharmaceuticals, Inc.",
+   "facts": "Class II recall by K.C. Pharmaceuticals, Inc.. Product: Sterile Lubricant Dry Eye Relief Eye Drops, 0.5 FL OZ (15 mL); a) LEADER, DISTRIBUTED BY CARDINAL HEALTH, DUBLIN, OHIO 43017, www.myleader.com, NDC 70000-0502-1; b) Crocodile Tears, Distributed by: Crocodile Tears, Palm Beach Gardens, FL 33410, UPC: 8 67166 00000 4; c) Discount drug mart, Discount D. Reason: Lack of Assurance of Sterility. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0006-2027\"",
+   "summary": "K.C. Pharmaceuticals, Inc. recalled Sterile Lubricant Dry Eye Relief Eye Drops due to a lack of assurance of sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0021-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: QUAD-MIX( PAPAV/PHENTO/ALPROS/TROP) INJECTABLE, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936. Reason: Lack of Assurance of Sterility:   Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0021-2027\"",
+   "summary": "Carolina Infusion, LLC initiated a recall for Quad-Mix injectable syringes due to a lack of assurance of sterility related to processing equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0027-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: TIRZEPATIDE/CYANOCOBALAMIN 26/2 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936. Reason: Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0027-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Tirzepatide/Cyanocobalamin injectable syringes over sterility assurance issues involving bacteriostatic water and processing equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0022-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: Tri-MIX (PAPAV/PHENTO/ALPROS),30/1/20, injectable,  Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936,. Reason: Lack of Assurance of Sterility:  Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0022-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Tri-Mix (30/1/20) injectable syringes due to processing equipment-related sterility assurance concerns.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0023-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: Tri-MIX (PAPAV/PHENTO/ALPROS),30/1/10, injectable,  Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936,. Reason: Lack of Assurance of Sterility: Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0023-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Tri-Mix (30/1/10) injectable syringes because of a lack of assurance of sterility tied to processing equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0025-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: Tri-MIX (PAPAV/PHENTO/ALPROS),30/1/60, injectable, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936. Reason: Lack of Assurance of Sterility: Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0025-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Tri-Mix (30/1/60) injectable syringes due to sterility assurance issues involving compounded product processing equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0004-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "K.C. Pharmaceuticals, Inc.",
+   "facts": "Class II recall by K.C. Pharmaceuticals, Inc.. Product: Sterile EYE DROPS Advanced Relief, (dextran 70, 0.1%, polyethylene glycol 400 1% and tetrahydrozoline HCl 0.05%), 0.5 FL OZ (15 mL) bottles, Sterile; a) LEADER, DISTRIBUTED BY CARDINAL HEALTH, DUBLIN, OHIO 43017, www.myleader.com, NDC 70000-0456-1; b) Equaline, DISTRIBUTED BY: UNFI, PROVIDENCE, RI 0. Reason: Lack of Assurance of Sterility. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0004-2027\"",
+   "summary": "K.C. Pharmaceuticals, Inc. recalled Sterile Eye Drops Advanced Relief because of a lack of assurance of sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0014-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Cipla USA, Inc.",
+   "facts": "Class II recall by Cipla USA, Inc.. Product: Fosfomycin Tromethamine Granules for Oral Solution, (Equivalent to 3 Grams of Fosfomycin), 1 Single-Dose Sachet, Rx only, Manufactured by: Cipla Ltd., Kurkumbh-413802, Maharashtra, India, Manufactured for: Cipla USA, Inc., 10 Independence Boulevard, Suite 300, Warren, NJ 07059, NDC 69097-579-67.. Reason: Failed Impurities/Degradation Specifications. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0014-2027\"",
+   "summary": "Cipla USA, Inc. recalled Fosfomycin Tromethamine Granules for Oral Solution due to failed impurities and degradation specifications.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0032-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: Tri-MIX (PAPAV/PHENTO/ALPROS),30/2/40, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936. Reason: Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0032-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Tri-Mix (30/2/40) syringes over sterility assurance issues related to bacteriostatic water formulation and processing equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0016-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "J&J INNOVATIVE MEDICINE",
+   "facts": "Class II recall by J&J INNOVATIVE MEDICINE. Product: IMAAVY (nipocalimab-aahu) Injection, 300 mg /1.62 mL (185 mg/mL) per single-dose vial, For Intravenous Infusion After Dilution, Rx only, Manufactured by: Janssen Biotech, Inc., Horsham, PA 19044.  NDC: 57894-800-01. Reason: Presence of particulate matter.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0016-2027\"",
+   "summary": "J&J Innovative Medicine recalled Imaavy (nipocalimab-aahu) Injection after particulate matter was identified in single-dose vials.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0007-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "K.C. Pharmaceuticals, Inc.",
+   "facts": "Class II recall by K.C. Pharmaceuticals, Inc.. Product: Sterile Eye Drops, ORIGINAL, Tetrahydrozoline HCl 0.05%   Redness Reliever \u00bf Fast Acting Formula) Product size: 0.5 fl oz (15 mL); a) Best Choice, PROUDLY DISTRIBUTED BY: VALU MERCHANDISERS, CO., 5000 KANSAS CITY, KS 66106, UPC 0 70038 47011 3; b) Discount drug mart, Discount Drug Mart Food Fair, Me. Reason: Lack of Assurance of Sterility. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0007-2027\"",
+   "summary": "K.C. Pharmaceuticals, Inc. issued a recall for Sterile Eye Drops Original due to a lack of assurance of sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0024-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: Tri-MIX (PAPAV/PHENTO/ALPROS), 30/1/40, injectable, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936. Reason: Lack of Assurance of Sterility:  Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0024-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Tri-Mix (30/1/40) injectable syringes citing a lack of assurance of sterility related to processing equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0036-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Apothecary Pharma LLC",
+   "facts": "Class II recall by Apothecary Pharma LLC. Product: Tirzepatide Injection, 18mg/mL, 4 mL Sterile Multi-Dose Vial, Rx only, Apothecary Pharma, LLC, 1913 Evans Road, Cary, NC 27513, NDC 85091-001-18.. Reason: Lack of Assurance of Sterility. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0036-2027\"",
+   "summary": "Apothecary Pharma LLC recalled Tirzepatide Injection 18mg/mL multi-dose vials due to a lack of assurance of sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0013-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Preferred Pharmaceuticals, Inc.",
+   "facts": "Class II recall by Preferred Pharmaceuticals, Inc.. Product: Lidocaine Ointment USP, 5% (Generic for Xylocaine), packaged in a 50 g jar, Rx only, Mfg: Taro Pharmaceuticals U.S.A., Inc., Prod# (NDC): 68788-7865-05. Reason: Failed Content Uniformity Specifications. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0013-2027\"",
+   "summary": "Preferred Pharmaceuticals, Inc. recalled Lidocaine Ointment USP, 5% due to failed content uniformity specifications.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0031-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: Tri-MIX (PAPAV/PHENTO/ALPROS),30/2/20, injectable, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936. Reason: Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0031-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Tri-Mix (30/2/20) injectable syringes due to sterility assurance concerns with bacteriostatic water and processing equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0034-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "SUN PHARMACEUTICAL INDUSTRIES INC",
+   "facts": "Class III recall by SUN PHARMACEUTICAL INDUSTRIES INC. Product: Tretinoin Cream USP, 0.05%, 45 g tube, Manufactured for: Northstar Rx LLC, Memphis, TN 38141, Manufactured by: Taro Pharmaceuticals Inc., Brampton, Ontario, Canada L6T 1C1, Product of Canada, NDC 16714-249-02.. Reason: Failed Impurities/Degradation Specifications. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0034-2027\"",
+   "summary": "Sun Pharmaceutical Industries Inc. recalled Northstar Rx LLC's Tretinoin Cream USP, 0.05% due to failed impurities/degradation specifications.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0030-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: TIRZEPATIDE/CYANOCOBALAMIN 85/2 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936;. Reason: Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0030-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Tirzepatide/Cyanocobalamin 85/2 mg/mL injectable syringes because of sterility assurance concerns regarding bacteriostatic water and processing equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0009-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "K.C. Pharmaceuticals, Inc.",
+   "facts": "Class II recall by K.C. Pharmaceuticals, Inc.. Product: Sterile High Performance Ultra Lubricating Eye Drops (Polyethylene Glycol 400, 0.4%   Relieves Dry and Irritated Eyes) Product size: 0.5 fl oz (15 mL); a) LEADER, DISTRIBUTED BY CARDINAL HEALTH, DUBLIN, OHIO 43017, www.myleader.com, NDC 70000-0457-1; b) exchange select, Manufactured for your Militar. Reason: Lack of Assurance of Sterility. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0009-2027\"",
+   "summary": "K.C. Pharmaceuticals, Inc. recalled Sterile High Performance Ultra Lubricating Eye Drops because of a lack of assurance of sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0028-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: TIRZEPATIDE/CYANOCOBALAMIN 64/2 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936. Reason: Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0028-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Tirzepatide/Cyanocobalamin 64/2 mg/mL injectable syringes over sterility assurance concerns involving bacteriostatic water and processing equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0035-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "SUN PHARMACEUTICAL INDUSTRIES INC",
+   "facts": "Class III recall by SUN PHARMACEUTICAL INDUSTRIES INC. Product: Tretinoin Cream UPS, 0.05%, 20g, Rx only, Mfd. by: Taro Pharmaceuticals Inc., Brampton, Ontario, Canada L6T 1C1, Dist. by: Taro Pharmaceuticals USA Inc., Hawthorne, NY 10532, NDC 51672-1394-0.. Reason: Failed Impurities/Degradation Specifications. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0035-2027\"",
+   "summary": "Sun Pharmaceutical Industries Inc. recalled Tretinoin Cream USP, 0.05% (20g) after it failed impurities and degradation specifications.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0005-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "K.C. Pharmaceuticals, Inc.",
+   "facts": "Class II recall by K.C. Pharmaceuticals, Inc.. Product: Eye Drops MAXIMUM, REDNESS RELIEF, Sterile, 1/2 FL OZ (0.5 ML); a) exchange select, Manufactured for your Military Exchange By: K.C Pharmaceuticals, Inc., Pomona, CA 9176, UPC: 6 14299 89636 9; b) Harris Teeter, PROUDLY DISTRIBUTED BY: HARRIS TEETER, LLC, MATTHEWS, NC 28105, UPC: 0 72036 73589 8; c). Reason: Lack of Assurance of Sterility. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0005-2027\"",
+   "summary": "K.C. Pharmaceuticals, Inc. recalled Eye Drops Maximum Redness Relief due to a lack of assurance of sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0029-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: TIRZEPATIDE/CYANOCOBALAMIN 76/2 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936. Reason: Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0029-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Tirzepatide/Cyanocobalamin 76/2 mg/mL injectable syringes due to sterility assurance issues tied to bacteriostatic water and equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0012-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "BioSpectra, Inc.",
+   "facts": "Class II recall by BioSpectra, Inc.. Product: Biospectra Tris/Tromethamine, USP, GMP, API Grade, Manufactured at 100 Majestic Way, Bangor, PA 18013, NDC 64173-101-25. Reason: Failed stability specifications. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0012-2027\"",
+   "summary": "BioSpectra, Inc. recalled Biospectra Tris/Tromethamine, USP, GMP, API Grade due to failed stability specifications.",
+   "name_matches_source": true
+  },
+  {
+   "id": "N/A",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Centric Compounding LLC",
+   "facts": "Not Yet Classified recall by Centric Compounding LLC. Product: Tri-Immune Boost (Glutathione: 200 mg, Ascorbic Acid: 200 mg, Zinc: 2.5 mg), 30 mL vial, Rx only, Centric Compounding, 7447 Harwin Dr. Suite 111, Houston, TX 77036. Reason: Microbial Contamination of Sterile Products - out of specifications results were obtained for bacterial endotoxin.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"N/A\"",
+   "summary": "Centric Compounding LLC recalled Tri-Immune Boost due to bacterial endotoxin out-of-specification results indicating microbial contamination.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0017-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: TIRZEPATIDE 26 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936;. Reason: Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0017-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Tirzepatide 26 mg/mL injectable syringes due to sterility assurance issues from bacteriostatic water and compounding equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0002-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "K.C. Pharmaceuticals, Inc.",
+   "facts": "Class II recall by K.C. Pharmaceuticals, Inc.. Product: Artificial Tears Sterile Lubricant Eye Drops (polyvinyl alcohol 0.5%, povidone 0.6%), 0.5 FL OZ (15 mL) bottles; a) Best Choice, PROUDLY DISTRIBUTED BY: VALU MERCHANDISERS, CO., 5000 KANSAS CITY, KS 66106, UPC 0 70038 47008 3; b) LEADER, DISTRIBUTED BY CARDINAL HEALTH, DUBLIN, OHIO 43017, www.mylead. Reason: Lack of Assurance of Sterility. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0002-2027\"",
+   "summary": "K.C. Pharmaceuticals, Inc. recalled Artificial Tears Sterile Lubricant Eye Drops due to a lack of assurance of sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0026-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: SEMAGLUTIDE/CYANOCOBALAMIN 9/2 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936. Reason: Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0026-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Semaglutide/Cyanocobalamin 9/2 mg/mL injectable syringes due to sterility assurance issues linked to bacteriostatic water and processing equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0033-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "SUN PHARMACEUTICAL INDUSTRIES INC",
+   "facts": "Class III recall by SUN PHARMACEUTICAL INDUSTRIES INC. Product: Tretinoin Cream USP, 0.05%, 45g tube, Rx only, Mfd by: Taro Pharmaceuticals Inc., Brampton, Ontario, Canada L6T 1C1, Dist. by: Taro Pharmaceuticals USA Inc., Hawthorne, NY 10532, NDC 51672-1394-9.. Reason: Failed Impurities/Degradation Specifications. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0033-2027\"",
+   "summary": "Sun Pharmaceutical Industries Inc. recalled Tretinoin Cream USP, 0.05% (45g) for failing impurities and degradation specifications.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0003-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "K.C. Pharmaceuticals, Inc.",
+   "facts": "Class II recall by K.C. Pharmaceuticals, Inc.. Product: Sterile EYE DROPS AC (tetrahydrozoline HCl 0.05%, zinc sulfate 0.25%), 0.5 fl. oz. (15 mL) bottles; a) Equaline, DISTRIBUTED BY: UNFI, PROVIDENCE, RI 02908 UPC 0 41163 25114 4; b) Good Sense Sterile Eye Drops, Distributed By: Geiss, Destin & Dunn, Inc., A Perrigo Company, Peachtree City, GA 30269, N. Reason: Lack of Assurance of Sterility. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0003-2027\"",
+   "summary": "K.C. Pharmaceuticals, Inc. recalled Sterile Eye Drops AC due to a lack of assurance of sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0019-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: SEMAGLUTIDE/CYANOCOBALAMIN 3/2 MG/ML INJECTABLE,  Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936. Reason: Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0019-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Semaglutide/Cyanocobalamin 3/2 mg/mL injectable syringes because of sterility assurance concerns involving bacteriostatic water and equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0018-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: SEMAGLUTIDE 3 MG/ML INJECTABLE, 8 x 0.1 mL syringes, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936. Reason: Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0018-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Semaglutide 3 mg/mL injectable syringes over sterility assurance issues regarding bacteriostatic water and processing equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0020-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Carolina Infusion, LLC",
+   "facts": "Class II recall by Carolina Infusion, LLC. Product: SERMORELIN ACETATE 1 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland. Reason: Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0020-2027\"",
+   "summary": "Carolina Infusion, LLC recalled Sermorelin Acetate 1 mg/mL injectable syringes due to sterility assurance issues with bacteriostatic water and compounding equipment.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0008-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "K.C. Pharmaceuticals, Inc.",
+   "facts": "Class II recall by K.C. Pharmaceuticals, Inc.. Product: Sterile Eye Drops  Redness Relief (Glycerin 0.25%, Naphazoline HCl 0.02%   Lubricant | Redness Reliever) (Relieves Dryness, Burning and Irritations), 0.5 fl oz (15 mL); a) LEADER, DISTRIBUTED BY CARDINAL HEALTH, DUBLIN, OHIO 43017, www.myleader.com, NDC 70000-0010-1; b) Discount drug mart, Distribut. Reason: Lack of Assurance of Sterility. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0008-2027\"",
+   "summary": "K.C. Pharmaceuticals, Inc. recalled Sterile Eye Drops Redness Relief due to a lack of assurance of sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0037-2027",
+   "kind": "Recall",
+   "date": "20261014",
+   "name": "Apothecary Pharma LLC",
+   "facts": "Class II recall by Apothecary Pharma LLC. Product: Apothecary NAD+ Injection 200 mg/mL, 6 mL Sterile Multi-Dose Vial, Rx Only, Apothecary Pharma, LLC, 1913 Evans Road, Cary, NC, 27513, NDC 85091-011-06.. Reason: Lack of Assurance of Sterility. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0037-2027\"",
+   "summary": "Apothecary Pharma LLC recalled Apothecary NAD+ Injection multi-dose vials due to a lack of assurance of sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "5cb9d285-1803-4a99-946a-d0b239b32df6@20261014",
+   "kind": "Label update (boxed warning)",
+   "date": "20261014",
+   "name": "Unnamed product",
+   "facts": "Updated label for Unnamed product (). Boxed warning: WARNING: MYELOSUPPRESSION BUSULFEX (busulfan) Injection causes severe and prolonged myelosuppression at the recommended dosage. Hematopoietic progenitor cell transplantation is required to prevent potentially fatal complications of the prolonged myelosuppression [see Warnings and Precautions (5.1) ]. WARNING: MYELOSUPPRESSION See full prescribing information for complete boxed warning. Causes severe and prolonged myelosuppression. ( 5.1 ) Hematopoietic progenitor cell transplantation is required",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cb9d285-1803-4a99-946a-d0b239b32df6",
+   "summary": "The label for Busulfex (busulfan) Injection was updated with a boxed warning regarding severe, prolonged, and potentially fatal myelosuppression.",
+   "name_matches_source": false
+  },
+  {
+   "id": "aea4e2a1-2089-40dc-9eee-deaab4f21397@20261014",
+   "kind": "Label update (boxed warning)",
+   "date": "20261014",
+   "name": "Metronidazole",
+   "facts": "Updated label for Metronidazole (PD-Rx Pharmaceuticals, Inc.). Boxed warning: WARNING Metronidazole has been shown to be carcinogenic in mice and rats (see PRECAUTIONS ). Unnecessary use of the drug should be avoided. Its use should be reserved for the conditions described in the INDICATIONS AND USAGE section below.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea4e2a1-2089-40dc-9eee-deaab4f21397",
+   "summary": "PD-Rx Pharmaceuticals, Inc.'s Metronidazole label was updated with a boxed warning advising against unnecessary use due to rodent carcinogenicity.",
+   "name_matches_source": true
+  },
+  {
+   "id": "cba64919-3b74-a03a-e053-2995a90a3d89@20261014",
+   "kind": "Label update (boxed warning)",
+   "date": "20261014",
+   "name": "Unnamed product",
+   "facts": "Updated label for Unnamed product (). Boxed warning: WARNING: NOT FOR TREATMENT OF OBESITY OR FOR WEIGHT LOSS Thyroid hormones, including levothyroxine sodium, either alone or with other therapeutic agents, should not be used for the treatment of obesity or for weight loss. In euthyroid patients, doses within the range of daily hormonal requirements are ineffective for weight reduction. Larger doses may produce serious or even life threatening manifestations of toxicity, particularly when given in association with sympathomimetic amines such as th",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cba64919-3b74-a03a-e053-2995a90a3d89",
+   "summary": "A boxed warning update emphasizes that thyroid hormones, including levothyroxine sodium, should not be used to treat obesity or weight loss.",
+   "name_matches_source": false
+  }
+ ],
+ "why_it_matters": {
+  "text": "These actions directly impact pharma teams monitoring product quality and safety, as highlighted by particulate matter contamination in nipocalimab-aahu injection and bacterial endotoxin out-of-specification findings in compounded formulations.",
+  "sources": [
+   {
+    "id": "D-0016-2027",
+    "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0016-2027\""
+   },
+   {
+    "id": "N/A",
+    "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"N/A\""
+   }
+  ]
+ },
+ "checks": {
+  "lines": 37,
+  "linked_to_source": 37,
+  "name_matches_source": 35,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 4935,
+  "tokens_out": 2385,
+  "usd": 0.00744,
+  "inr": 0.662
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "checked_on": "2026-11-07",
+ "how": "10 summaries picked at random (seed 7) from the 30-day backfill. Each was read side by side with its openFDA source record and graded supported / partly / not.",
+ "results": [
+  {"id": "D-0038-2027", "grade": "supported", "note": "Teva, metoclopramide, foreign tablets: all in source."},
+  {"id": "D-0009-2027", "grade": "supported", "note": "K.C. Pharmaceuticals eye drops, sterility: matches."},
+  {"id": "D-0056-2027", "grade": "supported", "note": "Class II, toothpaste, CGMP deviations: matches."},
+  {"id": "D-0023-2027", "grade": "supported", "note": "Tri-Mix syringes, sterility tied to processing equipment: matches."},
+  {"id": "D-0014-2027", "grade": "supported", "note": "Cipla fosfomycin, failed impurity specs: matches."},
+  {"id": "D-0069-2027", "grade": "supported", "note": "ARU toothpaste, CGMP deviations: matches."},
+  {"id": "D-0007-2027", "grade": "supported", "note": "K.C. Pharmaceuticals redness eye drops: matches."},
+  {"id": "7c1dd8ce-c490-40b4-b17a-da331df24cba@20261023", "grade": "partly", "note": "Says the boxed warning was 'updated'. The source shows the label was updated and has this boxed warning; it does not say the warning itself changed. Prompt fixed for future runs."},
+  {"id": "D-0025-2027", "grade": "supported", "note": "Tri-Mix 30/1/60, sterility: matches."},
+  {"id": "D-0064-2027", "grade": "supported", "note": "Brush Buddies chocolate toothpaste, CGMP: matches."}
+ ],
+ "why_it_matters_check": "Oct 28 issue says Greenwich Rx and Par Health recalls are Class I. Checked: D-0084-2027 and D-0082-2027 are both Class I. Supported.",
+ "known_limit": "The automatic name check flags 2 label lines as mismatches because openFDA left the product name blank; the AI took the name from the warning text. Shown, not hidden."
+}

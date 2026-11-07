@@ -1,0 +1,43 @@
+{
+ "date": "2026-10-12",
+ "mode": "Backfilled 2026-11-07",
+ "run_at": "2026-11-07T07:48:35+00:00",
+ "trigger": "local",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "5b9f0b60-0c25-4303-88f1-44bcb347bc49@20261012",
+   "kind": "Label update (boxed warning)",
+   "date": "20261012",
+   "name": "Trazodone Hydrochloride",
+   "facts": "Updated label for Trazodone Hydrochloride (REMEDYREPACK INC.). Boxed warning: WARNING: SUICIDAL THOUGHTS and BEHAVIORS Antidepressants increased the risk of suicidal thoughts and behaviors in pediatric and young adult patients in short-term studies. Closely monitor all antidepressant-treated patients for clinical worsening, and for emergence of suicidal thoughts and behaviors [see Warnings and Precautions (5.1) ] . Trazodone hydrochloride tablets are not approved for use in pediatric patients [see Use in Specific Populations (8.4) ] . WARNING: SUICIDAL THOUGHTS and BEHAVI",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b9f0b60-0c25-4303-88f1-44bcb347bc49",
+   "summary": "REMEDYREPACK INC. updated the label for Trazodone Hydrochloride with a boxed warning regarding suicidal thoughts and behaviors in pediatric and young adult patients.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "This update matters for safety and labeling teams monitoring boxed warning requirements for antidepressants, citing 5b9f0b60-0c25-4303-88f1-44bcb347bc49@20261012.",
+  "sources": [
+   {
+    "id": "5b9f0b60-0c25-4303-88f1-44bcb347bc49@20261012",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b9f0b60-0c25-4303-88f1-44bcb347bc49"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 1,
+  "linked_to_source": 1,
+  "name_matches_source": 1,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 320,
+  "tokens_out": 199,
+  "usd": 0.00059,
+  "inr": 0.053
+ }
+}

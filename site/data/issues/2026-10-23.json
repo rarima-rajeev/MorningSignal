@@ -1,0 +1,57 @@
+{
+ "date": "2026-10-23",
+ "mode": "Backfilled 2026-11-07",
+ "run_at": "2026-11-07T07:49:03+00:00",
+ "trigger": "local",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "623b9672-b41e-4ec9-b2cc-f5bb383c39ba@20261023",
+   "kind": "Label update (boxed warning)",
+   "date": "20261023",
+   "name": "Sertraline HCl",
+   "facts": "Updated label for Sertraline HCl (Biocon Pharma Inc.). Boxed warning: WARNING: SUICIDAL THOUGHTS AND BEHAVIORS Antidepressants increased the risk of suicidal thoughts and behavior in pediatric and young adult patients in short-term studies. Closely monitor all antidepressant-treated patients for clinical worsening, and for emergence of suicidal thoughts and behaviors [see Warnings and Precautions ( 5.1 )] . WARNING: SUICIDAL THOUGHTS AND BEHAVIORS See full prescribing information for complete boxed warning. Increased risk of suicidal thoughts and behavior in pedia",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=623b9672-b41e-4ec9-b2cc-f5bb383c39ba",
+   "summary": "Biocon Pharma Inc. has updated the boxed warning on Sertraline HCl regarding increased risk of suicidal thoughts and behaviors in pediatric and young adult patients.",
+   "name_matches_source": true
+  },
+  {
+   "id": "7c1dd8ce-c490-40b4-b17a-da331df24cba@20261023",
+   "kind": "Label update (boxed warning)",
+   "date": "20261023",
+   "name": "Carbamazepine",
+   "facts": "Updated label for Carbamazepine (Jubilant Cadista Pharmaceuticals Inc.). Boxed warning: WARNINGS SERIOUS DERMATOLOGIC REACTIONS AND HLA-B * 1502 ALLELE SERIOUS AND SOMETIMES FATAL DERMATOLOGIC REACTIONS, INCLUDING TOXIC EPIDERMAL NECROLYSIS (TEN) AND STEVENS-JOHNSON SYNDROME (SJS), HAVE BEEN REPORTED DURING TREATMENT WITH CARBAMAZEPINE. THESE REACTIONS ARE ESTIMATED TO OCCUR IN 1 TO 6 PER 10,000 NEW USERS IN COUNTRIES WITH MAINLY CAUCASIAN POPULATIONS, BUT THE RISK IN SOME ASIAN COUNTRIES IS ESTIMATED TO BE ABOUT 10 TIMES HIGHER. STUDIES IN PATIENTS OF CHINESE ANCESTRY HAVE FOUND A",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7c1dd8ce-c490-40b4-b17a-da331df24cba",
+   "summary": "Jubilant Cadista Pharmaceuticals Inc. updated the boxed warning for Carbamazepine regarding serious dermatologic reactions, including toxic epidermal necrolysis and Stevens-Johnson syndrome, associated with the HLA-B*1502 allele.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "These boxed warning label updates for Biocon Pharma Inc. and Jubilant Cadista Pharmaceuticals Inc. directly impact product labeling and patient safety compliance for sertraline and carbamazepine [623b9672-b41e-4ec9-b2cc-f5bb383c39ba@20261023, 7c1dd8ce-c490-40b4-b17a-da331df24cba@20261023].",
+  "sources": [
+   {
+    "id": "623b9672-b41e-4ec9-b2cc-f5bb383c39ba@20261023",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=623b9672-b41e-4ec9-b2cc-f5bb383c39ba"
+   },
+   {
+    "id": "7c1dd8ce-c490-40b4-b17a-da331df24cba@20261023",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7c1dd8ce-c490-40b4-b17a-da331df24cba"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 2,
+  "linked_to_source": 2,
+  "name_matches_source": 2,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 531,
+  "tokens_out": 442,
+  "usd": 0.00126,
+  "inr": 0.113
+ }
+}
