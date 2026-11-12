@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-12",
+ "mode": "Live run",
+ "run_at": "2026-11-12T19:27:45+00:00",
+ "trigger": "schedule",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "08a30230-fc95-9025-e063-6394a90ae21b@20261030",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261030",
+   "name": "Lorazepam",
+   "facts": "Updated label for Lorazepam (PD-Rx Pharmaceuticals, Inc.). Boxed warning: WARNING: RISKS FROM CONCOMITANT USE WITH OPIOIDS; ABUSE, MISUSE, AND ADDICTION; and DEPENDENCE AND WITHDRAWAL REACTIONS Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing of these drugs for patients for whom alternative treatment options are inadequate. Limit dosages and durations to the minimum required. Follow patients for signs and symptoms of respiratory depression and sedation (see WARNINGS",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08a30230-fc95-9025-e063-6394a90ae21b",
+   "summary": "The Lorazepam label from PD-Rx Pharmaceuticals, Inc. was updated, featuring a boxed warning covering risks of concomitant opioid use, abuse, misuse, addiction, dependence, and withdrawal reactions.",
+   "name_matches_source": true
+  },
+  {
+   "id": "08a30772-02fc-4f63-e063-6394a90afd43@20261030",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261030",
+   "name": "Tenofovir Disoproxil Fumarate",
+   "facts": "Updated label for Tenofovir Disoproxil Fumarate (PD-Rx Pharmaceuticals, Inc.). Boxed warning: BOXED WARNING WARNING: POSTTREATMENT EXACERBATION OF HEPATITIS Severe acute exacerbations of hepatitis have been reported in HBV-infected patients who have discontinued anti-hepatitis B therapy, including tenofovir disoproxil fumarate tablets. Hepatic function should be monitored closely with both clinical and laboratory follow-up for at least several months in patients who discontinue anti-hepatitis B therapy, including tenofovir disoproxil fumarate tablets. If appropriate, resumption of anti-h",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08a30772-02fc-4f63-e063-6394a90afd43",
+   "summary": "The Tenofovir Disoproxil Fumarate label from PD-Rx Pharmaceuticals, Inc. was updated, with its boxed warning covering posttreatment exacerbation of hepatitis.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "These label updates require monitoring by safety and labeling teams regarding boxed warnings for opioid co-use risks and posttreatment hepatitis exacerbations (08a30230-fc95-9025-e063-6394a90ae21b@20261030, 08a30772-02fc-4f63-e063-6394a90afd43@20261030).",
+  "sources": [
+   {
+    "id": "08a30230-fc95-9025-e063-6394a90ae21b@20261030",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08a30230-fc95-9025-e063-6394a90ae21b"
+   },
+   {
+    "id": "08a30772-02fc-4f63-e063-6394a90afd43@20261030",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08a30772-02fc-4f63-e063-6394a90afd43"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 2,
+  "linked_to_source": 2,
+  "name_matches_source": 2,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 517,
+  "tokens_out": 438,
+  "usd": 0.00125,
+  "inr": 0.111
+ }
+}
