@@ -1,0 +1,43 @@
+{
+ "date": "2026-11-13",
+ "mode": "Live run",
+ "run_at": "2026-11-13T19:06:01+00:00",
+ "trigger": "schedule",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "0230a3c3-34cf-478b-88c3-4d96e5300018@20261109",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261109",
+   "name": "Metformin Hydrochloride",
+   "facts": "Updated label for Metformin Hydrochloride (PD-Rx Pharmaceuticals, Inc.). Boxed warning: WARNING: LACTIC ACIDOSIS Postmarketing cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias. The onset of metformin-associated lactic acidosis is often subtle, accompanied only by nonspecific symptoms such as malaise, myalgias, respiratory distress, somnolence, and abdominal pain. Metformin-associated lactic acidosis was characterized by elevated blood lactate levels (> 5 mmol/Liter), anion gap acidosis (without evidence o",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0230a3c3-34cf-478b-88c3-4d96e5300018",
+   "summary": "The label for PD-Rx Pharmaceuticals, Inc.'s Metformin Hydrochloride was updated, and its boxed warning covers the risk of lactic acidosis.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "This labeling update is important for tracking safety information concerning metformin-associated lactic acidosis [0230a3c3-34cf-478b-88c3-4d96e5300018@20261109].",
+  "sources": [
+   {
+    "id": "0230a3c3-34cf-478b-88c3-4d96e5300018@20261109",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0230a3c3-34cf-478b-88c3-4d96e5300018"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 1,
+  "linked_to_source": 1,
+  "name_matches_source": 1,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 336,
+  "tokens_out": 200,
+  "usd": 0.0006,
+  "inr": 0.053
+ }
+}
