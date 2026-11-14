@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-14",
+ "mode": "Live run",
+ "run_at": "2026-11-14T17:35:25+00:00",
+ "trigger": "schedule",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "0cf6655e-d59a-4ebd-9698-195cad2adbd5@20261103",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261103",
+   "name": "Aripiprazole",
+   "facts": "Updated label for Aripiprazole (PD-Rx Pharmaceuticals, Inc.). Boxed warning: WARNING: INCREASED MORTALITY IN ELDERLY PATIENTS WITH DEMENTIA-RELATED PSYCHOSIS and SUICIDAL THOUGHTS AND BEHAVIORS WITH ANTIDEPRESSANT DRUGS Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Aripiprazole tablets are not approved for the treatment of patients with dementia-related psychosis [see Warnings and Precautions ( 5.1) ]. Antidepressants increased the risk of suicidal thoughts and behavior in children, adolescents, and y",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0cf6655e-d59a-4ebd-9698-195cad2adbd5",
+   "summary": "The label for PD-Rx Pharmaceuticals, Inc.'s Aripiprazole was updated, with its boxed warning covering increased mortality in elderly dementia-related psychosis patients and suicidal thoughts and behaviors.",
+   "name_matches_source": true
+  },
+  {
+   "id": "0d971993-466c-46dd-bdd6-2e300173621e@20261106",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261106",
+   "name": "PHYTONADIONE",
+   "facts": "Updated label for PHYTONADIONE (Henry Schein, Inc.). Boxed warning: BOXED WARNING WARNING \u2013 HYPERSENSITIVITY REACTIONS WITH INTRAVENOUS AND INTRAMUSCULAR USE Fatal hypersensitivity reactions, including anaphylaxis, have occurred during and immediately after intravenous and intramuscular injection of Phytonadione Injectable Emulsion. Reactions have occurred despite dilution to avoid rapid intravenous infusion and upon first dose. Avoid the intravenous and intramuscular routes of administration unless the subcutaneous route is not feasible and the serious risk is ",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d971993-466c-46dd-bdd6-2e300173621e",
+   "summary": "The label for Henry Schein, Inc.'s Phytonadione was updated, with its boxed warning covering fatal hypersensitivity reactions associated with intravenous and intramuscular administration.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "Tracking these label updates is vital for monitoring drug safety and regulatory labeling requirements concerning serious boxed warning risks (0cf6655e-d59a-4ebd-9698-195cad2adbd5@20261103, 0d971993-466c-46dd-bdd6-2e300173621e@20261106).",
+  "sources": [
+   {
+    "id": "0cf6655e-d59a-4ebd-9698-195cad2adbd5@20261103",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0cf6655e-d59a-4ebd-9698-195cad2adbd5"
+   },
+   {
+    "id": "0d971993-466c-46dd-bdd6-2e300173621e@20261106",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d971993-466c-46dd-bdd6-2e300173621e"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 2,
+  "linked_to_source": 2,
+  "name_matches_source": 2,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 504,
+  "tokens_out": 414,
+  "usd": 0.00119,
+  "inr": 0.106
+ }
+}
