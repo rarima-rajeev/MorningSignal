@@ -1,0 +1,617 @@
+{
+ "date": "2026-11-17",
+ "mode": "Live run",
+ "run_at": "2026-11-17T20:22:49+00:00",
+ "trigger": "schedule",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "D-0145-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: THYMOSIN ALPHA-1 (MDV) 3MG/ML **5ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0145-2027\"",
+   "summary": "Victory Medical Center Pharmacy issued a Class II recall for Thymosin Alpha-1 due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0122-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: CAGRILINTIDE/GLYCINE/B12 (MDV) 3.75/5/1MG/ML **1ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0122-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Cagrilintide/Glycine/B12 under an ongoing Class II recall due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0125-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: CJC-1295/IPAMORELIN (MDV) 2/2MG/ML **5ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0125-2027\"",
+   "summary": "Victory Medical Center Pharmacy initiated a Class II recall for CJC-1295/Ipamorelin 5ML due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0152-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: TIRZEPATIDE/L-CARNITINE **10/50MG/ML** (MDV) **1ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0152-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Tirzepatide/L-Carnitine 10/50MG/ML due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0158-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Preferred Pharmaceuticals, Inc.",
+   "facts": "Class II recall by Preferred Pharmaceuticals, Inc.. Product: Artificial Tears Lubricant Eye Drops, Visine, Pkg Size: 15, Mfg: Geri-Care: Brooklyn, NY.  NDC: 68788-7266-0. Reason: Lack of Assurance of Sterility. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0158-2027\"",
+   "summary": "Preferred Pharmaceuticals recalled Visine Artificial Tears Lubricant Eye Drops due to a lack of assurance of sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0173-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "American Health Packaging",
+   "facts": "Class II recall by American Health Packaging. Product: Cyanocobalamin Injection, USP, 1,000 mcg/mL, Rx Only, 25 x 1mL -Multiple-Dose Vials per carton, Mfg. by: American Regent, Inc., For Bluepoint Laboratories. Carton NDC 68001-542-60; Vial NDC 68001-542-59. Reason: Presence of particulate matter:American Regent, Inc. notified BluePoint Pharmaceuticals Laboratories regarding potential glass particle contamination (foreign glass fragment) identified in the product batch.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0173-2027\"",
+   "summary": "American Health Packaging recalled Cyanocobalamin Injection due to potential foreign glass particle contamination.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0124-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: CJC-1295/IPAMORELIN (MDV) 2/2MG/ML **2ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0124-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled CJC-1295/Ipamorelin 2ML under a Class II recall for lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0171-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Fresenius Medical Care Renal Therapies Group, LLC",
+   "facts": "Class II recall by Fresenius Medical Care Renal Therapies Group, LLC. Product: DELFLEX Peritoneal Dialysis Solution with 4.25% Dextrose, Low Magnesium/ Low Calcium and Attached stay safe Exchange Set, 2,500 mL Single dose bag, Sterile and Non-Pyrogenic, Rx only, CAT.NO. 054-25324.  Fresenius Medical Care, Renal Therapies Group, LLC, Lawrence, MA 01843. NDC 46163-212-94. Reason: Lack of Assurance of Sterility:complaints have been received related to potential leaks from small perforations in the print area on the primary bag in the affected lots.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0171-2027\"",
+   "summary": "Fresenius Medical Care recalled DELFLEX Peritoneal Dialysis Solution 4.25% Dextrose due to potential bag leaks compromising sterility.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0142-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: TAURINE (MDV) 50MG/ML **30ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0142-2027\"",
+   "summary": "Victory Medical Center Pharmacy initiated a Class II recall for Taurine multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0127-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: DEXPANTHENOL (MDV) 250MG/ML **30ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0127-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Dexpanthenol multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0140-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: SEMAGLUTIDE/L-CARNITINE 5/50MG/ML (1ML MDV), VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0140-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Semaglutide/L-Carnitine 1ML MDV because of a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0144-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: TESAMORELIN/IPAMORELIN (MDV) 5MG/2MG/ML **3ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0144-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Tesamorelin/Ipamorelin 3ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0170-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Fresenius Medical Care Renal Therapies Group, LLC",
+   "facts": "Class II recall by Fresenius Medical Care Renal Therapies Group, LLC. Product: DELFLEX Peritoneal Dialysis Solution with 2.5% Dextrose, Low Magnesium/ Low Calcium and Attached stay\"safe Exchange Set, 2,500 mL Single dose bag, Sterile and Non-Pyrogenic, Rx only, CAT. NO. 054-25322.  Fresenius Medical Care, Renal Therapies Group, LLC, Lawrence, MA 01843. NDC 46163-209-94. Reason: Lack of Assurance of Sterility:complaints have been received related to potential leaks from small perforations in the print area on the primary bag in the affected lots.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0170-2027\"",
+   "summary": "Fresenius Medical Care recalled DELFLEX Peritoneal Dialysis Solution 2.5% Dextrose 2,500 mL bags due to lack of sterility assurance.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0143-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: TESAMORELIN (MDV) 10MG/ML **3ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0143-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Tesamorelin multidose vials under a Class II recall for lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0155-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: ZINC SULFATE (MDV) 10MG/ML **30ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0155-2027\"",
+   "summary": "Victory Medical Center Pharmacy issued a Class II recall for Zinc Sulfate multidose vials citing lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0116-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: ASCORBIC ACID (PRESERVATIVE FREE) 500MG/ML **50ML**, VMC, Victory Medical Center Pharmacy, Austin Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0116-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled preservative-free Ascorbic Acid due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0159-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "BioMed Laboratories, LLC.",
+   "facts": "Class II recall by BioMed Laboratories, LLC.. Product: Tychasis Coats Aloe Lotion (Allantoin 0.5%) packaged in a)0.5 oz, b)8 oz (NDC 70211-704-08), and c)33 oz (NDC 70211-704-33) bottles, Manufactured for: Tychasis Corporation, Dallas, TX 75227. There is no NDC for the 0.5 oz given that it is a sample size used as a professional sample.. Reason: Failed Stability Specifications: OOS stability results included viscosity and appearance results that did not align with the established specifications.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0159-2027\"",
+   "summary": "BioMed Laboratories recalled Tychasis Coats Aloe Lotion due to out-of-specification stability results for viscosity and appearance.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0160-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "BioMed Laboratories, LLC.",
+   "facts": "Class II recall by BioMed Laboratories, LLC.. Product: Tychasis Coats Aloe Creme (Allantoin 0.5%), packaged in a) 4oz (NDC 70211-703-04), and b)16 oz (NDC 70211-703-16) jars, Manufactured for: Tychasis Corporation, Dallas, TX 75227.. Reason: Failed Stability Specifications: OOS stability results included viscosity and appearance results that did not align with the established specifications.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0160-2027\"",
+   "summary": "BioMed Laboratories recalled Tychasis Coats Aloe Creme due to failed stability specifications for viscosity and appearance.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0138-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: NAD+ 400MG/ML (MDV) **5ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0138-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled NAD+ 400MG/ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0154-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: TIRZEPATIDE/NIACINAMIDE (MDV) 20/2MG/ML **3ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0154-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Tirzepatide/Niacinamide multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0147-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: TIRZEPATIDE/B6 (MDV) 25MG/10MG/ML **1ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0147-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Tirzepatide/B6 1ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0120-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: BPC-157/KPV 5/5MG/ML (MDV) **3ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0120-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled BPC-157/KPV multidose vials citing a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0115-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: ASCORBIC ACID (MDV) 500MG/ML **50ML**, VMC, Victory Medical Center Pharmacy, Austin Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0115-2027\"",
+   "summary": "Victory Medical Center Pharmacy initiated a recall for Ascorbic Acid 50ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0130-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: HYDROXOCOBALAMIN **MDV** 1MG/ML (30ML), VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0130-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Hydroxocobalamin multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0119-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: BPC-157 (MDV) 5MG/ML **3ML**, VMC, Victory Medical Center Pharmacy, Austin Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0119-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled BPC-157 multidose vials under a Class II recall for lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0133-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: METHYLCOBALAMIN (MDV) 1MG/ML **1ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0133-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Methylcobalamin 1MG/ML 1ML vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0114-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: ALPHA LIPOIC ACID (MDV) 25MG/ML **30ML**, VMC, Victory Medical Center Pharmacy, Austin Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0114-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Alpha Lipoic Acid multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0167-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Fresenius Medical Care Renal Therapies Group, LLC",
+   "facts": "Class II recall by Fresenius Medical Care Renal Therapies Group, LLC. Product: DELFLEX Peritoneal Dialysis Solution with 1.5% Dextrose, Low Magnesium/ Low Calcium and Attached stay safe Exchange Set, 2,000 mL - Single Dose Bag, Sterile and Non-Pyrogenic, Rx only, CAT.NO. 054-20221.  Fresenius Medical Care, Renal Therapies Group, LLC, Lawrence, MA 01843. NDC 46163-206-92. Reason: Lack of Assurance of Sterility:complaints have been received related to potential leaks from small perforations in the print area on the primary bag in the affected lots.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0167-2027\"",
+   "summary": "Fresenius Medical Care recalled DELFLEX Peritoneal Dialysis Solution 1.5% Dextrose 2,000 mL bags due to lack of sterility assurance.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0151-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: TIRZEPATIDE/L-CARNITINE (MDV) 25/50MG/ML **8ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0151-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Tirzepatide/L-Carnitine 8ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0146-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: THYMOSIN BETA-500 (MDV) 10MG/ML **3ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0146-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Thymosin Beta-500 multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0137-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: MPT-141/NIACINAMIDE 50/2MG/ML (MDV) **3ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0137-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled MPT-141/Niacinamide multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0150-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: TIRZEPATIDE/L-CARNITINE (MDV) 25/50MG/ML **3ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0150-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Tirzepatide/L-Carnitine 3ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0169-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Fresenius Medical Care Renal Therapies Group, LLC",
+   "facts": "Class II recall by Fresenius Medical Care Renal Therapies Group, LLC. Product: DELFLEX Peritoneal Dialysis Solution with 1.5% Dextrose, Low Magnesium/ Low Calcium and Attached stay safe Exchange Set, 2,500 mL Single dose bag, Sterile and Non-Pyrogenic, Rx only, CAT. NO. 054-25321.  Fresenius Medical Care, Renal Therapies Group, LLC, Lawrence, MA 01843. NDC 46163-206-94. Reason: Lack of Assurance of Sterility:complaints have been received related to potential leaks from small perforations in the print area on the primary bag in the affected lots.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0169-2027\"",
+   "summary": "Fresenius Medical Care recalled DELFLEX Peritoneal Dialysis Solution 1.5% Dextrose 2,500 mL bags due to potential bag perforations.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0157-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "AvKARE",
+   "facts": "Class II recall by AvKARE. Product: Fludrocortisone Acetate Tablets, USP 0.1mg, Rx Only, 50 Tablets (5 x 10) Unit Dose AVPAK, Manufactured for: AvKARE, Pulaski, TN 38748, NDC 50268-330-15. Reason: Failed Impurities/Degradation Specifications. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0157-2027\"",
+   "summary": "AvKARE recalled Fludrocortisone Acetate Tablets due to failed impurities and degradation specifications.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0148-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: TIRZEPATIDE/B6 (MDV) 25MG/10MG/ML **8ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0148-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Tirzepatide/B6 8ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0182-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Advagen Pharma Limited",
+   "facts": "Class II recall by Advagen Pharma Limited. Product: Metoprolol Tartrate Tablets, USP, 50 mg, 1,000 Tablets per bottle, Rx Only, Distributed by: Advagen Pharma Ltd., East Windsor, NJ 08520, USA.  NDC: 72888-210-00.. Reason: Presence of Foreign Tablets/Capsules. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0182-2027\"",
+   "summary": "Advagen Pharma Limited recalled Metoprolol Tartrate Tablets due to the presence of foreign tablets or capsules.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0135-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: METHYLCOBALAMIN 1MG/ML (MDV) **30ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0135-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Methylcobalamin 1MG/ML 30ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0141-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: SEMAGLUTIDE/L-CARNITINE 5/50MG/ML (3ML MDV), VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0141-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Semaglutide/L-Carnitine 3ML MDV due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0161-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "BioMed Laboratories, LLC.",
+   "facts": "Class II recall by BioMed Laboratories, LLC.. Product: Tychasis Coats Aloe Liniment (Methyl salicylate 10%), packaged a) 0.5 oz, b) 8 oz (NDC 70211-704-08) c) 33oz (NDC 70211-704-33) bottles, Manufactured for: Tychasis Corporation, Dallas, TX 75227.  There is no NDC for the 0.5 oz given that it is a sample size used as a professional sample.. Reason: Failed Stability Specifications: OOS stability results included viscosity and appearance results that did not align with the established specifications.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0161-2027\"",
+   "summary": "BioMed Laboratories recalled Tychasis Coats Aloe Liniment due to out-of-specification stability results for viscosity and appearance.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0126-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: DEXAMETHASONE PHOSPHATE (MDV) 24MG/ML **1ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0126-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Dexamethasone Phosphate multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0121-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: BPC-157/THYMOSIN BETA-4 (MDV) 5/5MG/ML **3ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0121-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled BPC-157/Thymosin Beta-4 multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0134-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: METHYLCOBALAMIN 12.5MG/ML (MDV) **30ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0134-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Methylcobalamin 12.5MG/ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0129-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: GHK- CU (MDV) 10MG/ML **3ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0129-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled GHK-CU multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0123-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: CJC-1295 (MDV) 2MG/ML **3ML**,  VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0123-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled CJC-1295 multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0168-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Fresenius Medical Care Renal Therapies Group, LLC",
+   "facts": "Class II recall by Fresenius Medical Care Renal Therapies Group, LLC. Product: DELFLEX Peritoneal Dialysis Solution with 2.5% Dextrose, Low Magnesium/ Low Calcium and Attached stay safe Exchange Set, 2,000 mL Single dose bag, Sterile and Non-Pyrogenic, Rx only, CAT. No. 054-20222.  Fresenius Medical Care, Renal Therapies Group, LLC, Lawrence, MA 01843. NDC 46163-209-92. Reason: Lack of Assurance of Sterility:complaints have been received related to potential leaks from small perforations in the print area on the primary bag in the affected lots.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0168-2027\"",
+   "summary": "Fresenius Medical Care recalled DELFLEX Peritoneal Dialysis Solution 2.5% Dextrose 2,000 mL bags due to lack of sterility assurance.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0131-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: L-CARNITINE 500MG/ML (MDV) **30ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0131-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled L-Carnitine multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0149-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: TIRZEPATIDE/L-CARNITINE (MDV) 25/50MG/ML **1ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0149-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Tirzepatide/L-Carnitine 1ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0132-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: METHYL MIX (MDV) 6.25/6.25/5/6.25MG/ML **5ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0132-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Methyl Mix multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0153-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: TIRZEPATIDE/L-CARNITINE 30/100MG/ML (MDV) **2ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0153-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Tirzepatide/L-Carnitine 30/100MG/ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0128-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: ELECTRO B COMPLEX (MDV) **49ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0128-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Electro B Complex multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0166-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Hikma Pharmaceuticals USA INC.",
+   "facts": "Class II recall by Hikma Pharmaceuticals USA INC.. Product: Ciprofloxacin Tablets, USP, 750 mg, 50-count bottle, Rx Only, Manufactured by: Hikma Pharmaceuticals, P.O. Box 182400, Amman, 11118-Jordan, Distributed by: Hikma Pharmaceuticals USA Inc. Berkely Heights, NJ 07922, NDC 0143-9929-50. Reason: CGMP Deviations: N-nitroso-ciprofloxacin results above the FDA recommended interim control limit.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0166-2027\"",
+   "summary": "Hikma Pharmaceuticals USA recalled Ciprofloxacin Tablets 750 mg because N-nitroso-ciprofloxacin levels exceeded FDA recommended limits.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0117-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: B COMPLEX (MDV) **30ML**, VMC, Victory Medical Center Pharmacy, Austin Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0117-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled B Complex multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0165-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Hikma Pharmaceuticals USA INC.",
+   "facts": "Class II recall by Hikma Pharmaceuticals USA INC.. Product: Ciprofloxacin Tablets, USP, 500 mg, 100-count bottle, Rx Only, Manufactured by: Hikma Pharmaceuticals, P.O. Box 182400, Amman, 11118-Jordan, Distributed by: Hikma Pharmaceuticals USA Inc. Berkely Heights, NJ 07922, NDC 0143-9928-01. Reason: CGMP Deviations: N-nitroso-ciprofloxacin results above the FDA recommended interim control limit.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0165-2027\"",
+   "summary": "Hikma Pharmaceuticals USA recalled Ciprofloxacin Tablets 500 mg due to N-nitroso-ciprofloxacin levels exceeding FDA recommended interim limits.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0118-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: BIOTIN 10MG/ML (MDV) **30ML**, VMC, Victory Medical Center Pharmacy, Austin Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0118-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Biotin multidose vials due to a lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0139-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: SEMAGLUTIDE/L-CARNITINE 2.5/25MG/ML **1ML** MDV, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0139-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Semaglutide/L-Carnitine 2.5/25MG/ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0136-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Victory Medical Center Pharmacy",
+   "facts": "Class II recall by Victory Medical Center Pharmacy. Product: METHYLCOBALAMIN 5MG/ML (MDV) **30ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas. Reason: Lack of Processing Controls. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0136-2027\"",
+   "summary": "Victory Medical Center Pharmacy recalled Methylcobalamin 5MG/ML multidose vials due to lack of processing controls.",
+   "name_matches_source": true
+  },
+  {
+   "id": "0339e27d-3dbf-4c37-a14e-f53557c08e19@20261110",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261110",
+   "name": "Divalproex Sodium",
+   "facts": "Updated label for Divalproex Sodium (REMEDYREPACK INC.). Boxed warning: WARNING: LIFE THREATENING ADVERSE REACTIONS Hepatotoxicity General Population: Hepatic failure resulting in fatalities has occurred in patients receiving valproate and its derivatives. These incidents usually have occurred during the first six months of treatment. Serious or fatal hepatotoxicity may be preceded by non-specific symptoms such as malaise, weakness, lethargy, facial edema, anorexia, and vomiting. In patients with epilepsy, a loss of seizure control may also occur. Patients should be",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0339e27d-3dbf-4c37-a14e-f53557c08e19",
+   "summary": "The label for RemedyRepack's Divalproex Sodium was updated, and its boxed warning covers life-threatening adverse reactions including fatal hepatotoxicity.",
+   "name_matches_source": true
+  },
+  {
+   "id": "0db62c57-d020-4ddb-b24a-ecb349ce3850@20261112",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261112",
+   "name": "LEVOTHYROXINE SODIUM",
+   "facts": "Updated label for LEVOTHYROXINE SODIUM (A-S Medication Solutions). Boxed warning: WARNING: NOT FOR TREATMENT OF OBESITY OR FOR WEIGHT LOSS Thyroid hormones, including levothyroxine sodium, either alone or with other therapeutic agents, should not be used for the treatment of obesity or for weight loss. In euthyroid patients, doses within the range of daily hormonal requirements are ineffective for weight reduction. Larger doses may produce serious or even life-threatening manifestations of toxicity, particularly when given in association with sympathomimetic amines such as th",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0db62c57-d020-4ddb-b24a-ecb349ce3850",
+   "summary": "The label for A-S Medication Solutions' Levothyroxine Sodium was updated, and its boxed warning covers misuse for weight loss.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "These recalls highlight critical quality and safety concerns regarding nitrosamine impurities exceeding FDA limits in ciprofloxacin tablets [D-0165-2027, D-0166-2027].",
+  "sources": [
+   {
+    "id": "D-0165-2027",
+    "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0165-2027\""
+   },
+   {
+    "id": "D-0166-2027",
+    "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0166-2027\""
+   }
+  ]
+ },
+ "checks": {
+  "lines": 58,
+  "linked_to_source": 58,
+  "name_matches_source": 58,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 5648,
+  "tokens_out": 3394,
+  "usd": 0.01018,
+  "inr": 0.906
+ }
+}
