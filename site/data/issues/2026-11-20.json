@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-20",
+ "mode": "Live run",
+ "run_at": "2026-11-20T19:31:27+00:00",
+ "trigger": "schedule",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "01d874f9-e073-4092-94ad-da361551d4bf@20261110",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261110",
+   "name": "Flucytosine",
+   "facts": "Updated label for Flucytosine (Major Pharmaceuticals). Boxed warning: WARNING Use with extreme caution in patients with impaired renal function. Close monitoring of hematologic, renal and hepatic status of all patients is essential. These instructions should be thoroughly reviewed before administration of Flucytosine Capsules USP.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01d874f9-e073-4092-94ad-da361551d4bf",
+   "summary": "The label for Major Pharmaceuticals' Flucytosine was updated, and its boxed warning covers extreme caution in impaired renal function and essential hematologic, renal, and hepatic monitoring.",
+   "name_matches_source": true
+  },
+  {
+   "id": "08320ea3-8f93-6f04-5d1c-f69af3eb5a81@20261116",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261116",
+   "name": "PAROXETINE",
+   "facts": "Updated label for PAROXETINE (Apotex Corp.). Boxed warning: WARNING: SUICIDAL THOUGHTS AND BEHAVIORS Antidepressants increased the risk of suicidal thoughts and behaviors in pediatric and young adult patients in short-term studies. Closely monitor all antidepressant-treated patients for clinical worsening, and for emergence of suicidal thoughts and behaviors [see Warnings and Precautions ( 5.1 )]. Paroxetine tablets are not approved for use in pediatric patients [see Use in Specific Populations ( 8.4 )]. WARNING: SUICIDAL THOUGHTS AND BEHAVIORS See full ",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08320ea3-8f93-6f04-5d1c-f69af3eb5a81",
+   "summary": "The label for Apotex Corp.'s paroxetine was updated, and its boxed warning covers the increased risk of suicidal thoughts and behaviors in pediatric and young adult patients.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "These labeling updates for Flucytosine [01d874f9-e073-4092-94ad-da361551d4bf@20261110] and paroxetine [08320ea3-8f93-6f04-5d1c-f69af3eb5a81@20261116] are critical for maintaining compliant prescribing information and monitoring boxed warnings regarding organ toxicity and suicidality risks.",
+  "sources": [
+   {
+    "id": "01d874f9-e073-4092-94ad-da361551d4bf@20261110",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01d874f9-e073-4092-94ad-da361551d4bf"
+   },
+   {
+    "id": "08320ea3-8f93-6f04-5d1c-f69af3eb5a81@20261116",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08320ea3-8f93-6f04-5d1c-f69af3eb5a81"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 2,
+  "linked_to_source": 2,
+  "name_matches_source": 2,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 461,
+  "tokens_out": 388,
+  "usd": 0.00111,
+  "inr": 0.099
+ }
+}
