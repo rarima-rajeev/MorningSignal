@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-21",
+ "mode": "Live run",
+ "run_at": "2026-11-21T18:36:38+00:00",
+ "trigger": "schedule",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "07d43bf6-a695-453a-a5c7-9581effe585c@20261117",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261117",
+   "name": "Risperidone",
+   "facts": "Updated label for Risperidone (Westminster Pharmaceuticals, LLC). Boxed warning: WARNING: INCREASED MORTALITY IN ELDERLY PATIENTS WITH DEMENTIA-RELATED PSYCHOSIS Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Risperidone is not approved for the treatment of patients with dementia-related psychosis. [see Warnings and Precautions (5.1) ] WARNING: INCREASED MORTALITY IN ELDERLY PATIENTS WITH DEMENTIA-RELATED PSYCHOSIS See full prescribing information for complete boxed warning. Elderly patients with dementia-",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07d43bf6-a695-453a-a5c7-9581effe585c",
+   "summary": "Westminster Pharmaceuticals, LLC updated the label for Risperidone, which carries a boxed warning regarding increased mortality in elderly patients with dementia-related psychosis.",
+   "name_matches_source": true
+  },
+  {
+   "id": "0a967468-3869-4c8c-849f-9fc3a8dcc489@20261110",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261110",
+   "name": "Citalopram",
+   "facts": "Updated label for Citalopram (QPharma, Inc.). Boxed warning: WARNING: SUICIDAL THOUGHTS AND BEHAVIORS Antidepressants increased the risk of suicidal thoughts and behaviors in pediatric and young adult patients in short-term studies. Closely monitor all antidepressant-treated patients for clinical worsening, and for emergence of suicidal thoughts and behaviors [see Warnings and Precautions (5.1) ] . Citalopram is not approved for use in pediatric patients [see Use in Specific Populations (8.4) ]. WARNING: SUICIDAL THOUGHTS AND BEHAVIORS See full prescribin",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a967468-3869-4c8c-849f-9fc3a8dcc489",
+   "summary": "The label for Citalopram by QPharma, Inc. was updated and features a boxed warning concerning suicidal thoughts and behaviors in pediatric and young adult patients.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "Tracking these label updates is critical for labeling compliance and ensuring safety information, including boxed warnings on mortality and suicidal thoughts, remains properly communicated [07d43bf6-a695-453a-a5c7-9581effe585c@20261117, 0a967468-3869-4c8c-849f-9fc3a8dcc489@20261110].",
+  "sources": [
+   {
+    "id": "07d43bf6-a695-453a-a5c7-9581effe585c@20261117",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07d43bf6-a695-453a-a5c7-9581effe585c"
+   },
+   {
+    "id": "0a967468-3869-4c8c-849f-9fc3a8dcc489@20261110",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a967468-3869-4c8c-849f-9fc3a8dcc489"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 2,
+  "linked_to_source": 2,
+  "name_matches_source": 2,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 529,
+  "tokens_out": 429,
+  "usd": 0.00123,
+  "inr": 0.11
+ }
+}
