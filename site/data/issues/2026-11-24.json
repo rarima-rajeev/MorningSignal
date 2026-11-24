@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-24",
+ "mode": "Live run",
+ "run_at": "2026-11-24T21:51:57+00:00",
+ "trigger": "schedule",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "0e752dda-f00f-4123-b59f-aa911b897a5a@20261110",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261110",
+   "name": "temazepam",
+   "facts": "Updated label for temazepam (Bryant Ranch Prepack). Boxed warning: WARNING: RISKS FROM CONCOMITANT USE WITH OPIOIDS; ABUSE, MISUSE, AND ADDICTION; and DEPENDENCE AND WITHDRAWAL REACTIONS Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing of these drugs in patients for whom alternative treatment options are inadequate. Limit dosages and durations to the minimum required. Follow patients for signs and symptoms of respiratory depression and sedation. The use of be",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e752dda-f00f-4123-b59f-aa911b897a5a",
+   "summary": "The label for temazepam by Bryant Ranch Prepack was updated, and its boxed warning covers risks from concomitant use with opioids, abuse, misuse, addiction, dependence, and withdrawal reactions.",
+   "name_matches_source": true
+  },
+  {
+   "id": "0e87e78e-d39c-44fc-95a0-70cdb2a91941@20261111",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261111",
+   "name": "Perphenazine",
+   "facts": "Updated label for Perphenazine (Bryant Ranch Prepack). Boxed warning: WARNING Increased Mortality in Elderly Patients with Dementia-Related Psychosis Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Analyses of seventeen placebo-controlled trials (modal duration of 10 weeks), largely in patients taking atypical antipsychotic drugs, revealed a risk of death in drug-treated patients of between 1.6 to 1.7 times the risk of death in placebo-treated patients. Over the course of a typical 10-week contro",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e87e78e-d39c-44fc-95a0-70cdb2a91941",
+   "summary": "The label for perphenazine by Bryant Ranch Prepack was updated, and its boxed warning covers increased mortality in elderly patients with dementia-related psychosis.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "These updates matter for pharma labeling and safety oversight, as reflected in 0e752dda-f00f-4123-b59f-aa911b897a5a@20261110 and 0e87e78e-d39c-44fc-95a0-70cdb2a91941@20261111.",
+  "sources": [
+   {
+    "id": "0e752dda-f00f-4123-b59f-aa911b897a5a@20261110",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e752dda-f00f-4123-b59f-aa911b897a5a"
+   },
+   {
+    "id": "0e87e78e-d39c-44fc-95a0-70cdb2a91941@20261111",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e87e78e-d39c-44fc-95a0-70cdb2a91941"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 2,
+  "linked_to_source": 2,
+  "name_matches_source": 2,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 505,
+  "tokens_out": 369,
+  "usd": 0.00107,
+  "inr": 0.096
+ }
+}
