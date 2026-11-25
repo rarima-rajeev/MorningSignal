@@ -1,0 +1,163 @@
+{
+ "date": "2026-11-25",
+ "mode": "Live run",
+ "run_at": "2026-11-25T20:58:32+00:00",
+ "trigger": "schedule",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "D-0176-2027",
+   "kind": "Recall",
+   "date": "20261118",
+   "name": "ORL Labs LLC",
+   "facts": "Class II recall by ORL Labs LLC. Product: ORL Organic Oral Care Cinnamint toothpaste, 4 oz., ORL, ORL Labs, LLC, Scottsdale, Arizona, USA UPC# 850006245512. Reason: Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA). Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0176-2027\"",
+   "summary": "ORL Labs LLC is conducting a Class II recall of ORL Organic Oral Care Cinnamint toothpaste due to hormone cross-contamination.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0177-2027",
+   "kind": "Recall",
+   "date": "20261118",
+   "name": "ORL Labs LLC",
+   "facts": "Class II recall by ORL Labs LLC. Product: ORL Organic Oral Care Fresh Mint natural toothpaste, 4 oz., ORL, Manufactured in USA, ORL Labs, LLC, Scottsdale, Arizona, USA, UPC 850006245499. Reason: Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA). Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0177-2027\"",
+   "summary": "ORL Labs LLC is recalling ORL Organic Oral Care Fresh Mint natural toothpaste after sampling detected progesterone, estradiol, or DHEA.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0185-2027",
+   "kind": "Recall",
+   "date": "20261111",
+   "name": "Sagent Pharmaceuticals",
+   "facts": "Class II recall by Sagent Pharmaceuticals. Product: Famotidine Injection, 200 mg per 50 mL (4 mg per mL), 1 x 50 mL Multi-Dose Vial, For Intravenous Use, Rx only, Sterile, Mfd. for SAGENT Pharmaceuticals, Schaumburg, IL 60173.  NDC: 25021-756-50. Reason: Presence of Particulate Matter. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0185-2027\"",
+   "summary": "Sagent Pharmaceuticals initiated a Class II recall for Famotidine Injection because of the presence of particulate matter.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0180-2027",
+   "kind": "Recall",
+   "date": "20261118",
+   "name": "ORL Labs LLC",
+   "facts": "Class II recall by ORL Labs LLC. Product: ORL Organic Oral Care Fresh mint mouthwash, 16.9 oz., ORL, Manufactured in USA, ORL Labs, LLC, Scottsdale, Arizona, USA, UPC# #850006245451. Reason: Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA). Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0180-2027\"",
+   "summary": "ORL Labs LLC is recalling ORL Organic Oral Care Fresh mint mouthwash due to potential hormone cross-contamination.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0178-2027",
+   "kind": "Recall",
+   "date": "20261118",
+   "name": "ORL Labs LLC",
+   "facts": "Class II recall by ORL Labs LLC. Product: ORL Organic Oral Care Bubblegum Kids Mouthwash, 16.9 oz.,  ORL, ORL Labs, LLC, Scottsdale, Arizona, USA, UPC# #850006245475. Reason: Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA). Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0178-2027\"",
+   "summary": "ORL Labs LLC is recalling ORL Organic Oral Care Bubblegum Kids Mouthwash due to cross-contamination with progesterone, estradiol, or DHEA.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0189-2027",
+   "kind": "Recall",
+   "date": "20261118",
+   "name": "IBeautiStore.com",
+   "facts": "Class I recall by IBeautiStore.com. Product: UMARY Acido Hialuronico, also known as: \"New Hyaluronic Acid 850mg Sealed 30 Caps\", Suplemento Alimenticio, Contenido Neto: 30 capletas de 850 mg.. Reason: Marketed without approved NDA/ANDA- FDA laboratory analysis found product to be tainted with undeclared ingredients: Dexamethasone, Diclofenac and Omeprazole.. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0189-2027\"",
+   "summary": "IBeautiStore.com initiated a Class I recall for UMARY Acido Hialuronico because it contains undeclared dexamethasone, diclofenac, and omeprazole.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0174-2027",
+   "kind": "Recall",
+   "date": "20261118",
+   "name": "SUN PHARMACEUTICAL INDUSTRIES INC",
+   "facts": "Class II recall by SUN PHARMACEUTICAL INDUSTRIES INC. Product: Lisdexamfetamine Dimesylate Capsules 40 mg, 100-count bottle, Rx Only, Manufactured by: Ohm Laboratories, New Brunswick, NJ 08901, Distributed by: Sun Pharmaceutical Industries, Inc., Cranbury, NJ 08512. NDC 57664-049-88.. Reason: Failed Dissolution Specifications. Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0174-2027\"",
+   "summary": "Sun Pharmaceutical Industries Inc. is recalling Lisdexamfetamine Dimesylate Capsules after the product failed dissolution specifications.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0179-2027",
+   "kind": "Recall",
+   "date": "20261118",
+   "name": "ORL Labs LLC",
+   "facts": "Class II recall by ORL Labs LLC. Product: Organic Oral Care Cinnamint Kids Mouthwash, 16.9 oz., ORL, ORL Labs, LLC, Scottsdale, Arizona, USA, 16.9 oz. UPC# #850006245468. Reason: Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA). Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0179-2027\"",
+   "summary": "ORL Labs LLC is recalling Organic Oral Care Cinnamint Kids Mouthwash because sampling revealed hormone cross-contamination.",
+   "name_matches_source": true
+  },
+  {
+   "id": "D-0175-2027",
+   "kind": "Recall",
+   "date": "20261118",
+   "name": "ORL Labs LLC",
+   "facts": "Class II recall by ORL Labs LLC. Product: ORL Organic Oral Care Bubblegum Kids natural toothpaste, 4 oz., ORL, Manufactured in USA, ORL LAbs, LLC, Scottsdale, Arizona, USA,  UPC# 850006245505. Reason: Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA). Status: Ongoing.",
+   "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0175-2027\"",
+   "summary": "ORL Labs LLC is recalling ORL Organic Oral Care Bubblegum Kids natural toothpaste due to FDA-identified hormone cross-contamination.",
+   "name_matches_source": true
+  },
+  {
+   "id": "0f692652-4451-4eef-901d-1e6aadc43847@20261117",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261117",
+   "name": "Olanzapine",
+   "facts": "Updated label for Olanzapine (REMEDYREPACK INC.). Boxed warning: WARNING: INCREASED MORTALITY IN ELDERLY PATIENTS WITH DEMENTIA-RELATED PSYCHOSIS Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Analyses of seventeen placebo-controlled trials (modal duration of 10 weeks), largely in patients taking atypical antipsychotic drugs, revealed a risk of death in drug-treated patients of between 1.6 to 1.7 times the risk of death in placebo-treated patients. Over the course of a typical 10-week contr",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f692652-4451-4eef-901d-1e6aadc43847",
+   "summary": "The Olanzapine label by REMEDYREPACK INC. was updated; its boxed warning covers increased mortality in elderly patients with dementia-related psychosis.",
+   "name_matches_source": true
+  },
+  {
+   "id": "0fd4f3cc-409a-4609-affc-29947714461e@20261117",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261117",
+   "name": "Tofacitinib",
+   "facts": "Updated label for Tofacitinib (Ajanta Pharma USA Inc.). Boxed warning: WARNING: SERIOUS INFECTIONS, MORTALITY, MALIGNANCY, MAJOR ADVERSE CARDIOVASCULAR EVENTS, and THROMBOSIS SERIOUS INFECTIONS Patients treated with tofacitinib extended-release tablets are at increased risk for developing serious bacterial, fungal, viral, and opportunistic infections, including tuberculosis (TB), that may lead to hospitalization or death [see Warnings and Precautions ( 5.1 ) and Adverse Reactions ( 6.1 )]. Most patients who developed these infections were taking concomitant immunos",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fd4f3cc-409a-4609-affc-29947714461e",
+   "summary": "Ajanta Pharma USA Inc. updated the Tofacitinib label, which features a boxed warning covering serious infections, mortality, malignancy, major adverse cardiovascular events, and thrombosis.",
+   "name_matches_source": true
+  },
+  {
+   "id": "121fbf86-1d76-4579-be2f-be9a957b23ab@20261115",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261115",
+   "name": "NORETHINDRONE",
+   "facts": "Updated label for NORETHINDRONE (Lupin Pharmaceuticals, Inc.). Boxed warning: Cigarette smoking greatly increases the possibility of suffering heart attacks and strokes. Women who use oral contraceptives are strongly advised not to smoke.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=121fbf86-1d76-4579-be2f-be9a957b23ab",
+   "summary": "Lupin Pharmaceuticals, Inc. updated the Norethindrone label, whose boxed warning advises against smoking due to increased risk of heart attacks and strokes.",
+   "name_matches_source": true
+  },
+  {
+   "id": "12f609c9-2088-bb05-e063-6394a90a9ecc@20261111",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261111",
+   "name": "Simlandi",
+   "facts": "Updated label for Simlandi (Teva Pharmaceuticals USA, Inc.). Boxed warning: WARNING: SERIOUS INFECTIONS and MALIGNANCY SERIOUS INFECTIONS Patients treated with adalimumab products, including SIMLANDI, are at increased risk for developing serious infections that may lead to hospitalization or death [see Warnings and Precautions ( 5.1 ) ] . Most patients who developed these infections were taking concomitant immunosuppressants such as methotrexate or corticosteroids. Discontinue SIMLANDI if a patient develops a serious infection or sepsis. Reported infections include: Act",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc",
+   "summary": "Teva Pharmaceuticals USA, Inc. updated the Simlandi label, which includes a boxed warning covering serious infections and malignancy.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "Particulate matter contamination in injectable drugs presents direct quality and patient safety risks that demand close manufacturing oversight [D-0185-2027].",
+  "sources": [
+   {
+    "id": "D-0185-2027",
+    "url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0185-2027\""
+   }
+  ]
+ },
+ "checks": {
+  "lines": 13,
+  "linked_to_source": 13,
+  "name_matches_source": 13,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 1857,
+  "tokens_out": 953,
+  "usd": 0.00294,
+  "inr": 0.262
+ }
+}
