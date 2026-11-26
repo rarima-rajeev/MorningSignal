@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-26",
+ "mode": "Live run",
+ "run_at": "2026-11-26T20:50:48+00:00",
+ "trigger": "schedule",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "05a807bf-5175-43a2-a676-215bba2645a8@20261120",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261120",
+   "name": "OLMESARTAN MEDOXOMIL",
+   "facts": "Updated label for OLMESARTAN MEDOXOMIL (Inventia Healthcare Limited). Boxed warning: WARNING: FETAL TOXICITY When pregnancy is detected, discontinue olmesartan medoxomil tablets as soon as possible ( 5.1 , 8.1 ). Drugs that act directly on the renin-angiotensin system can cause injury anddeath to the developing fetus ( 5.1 , 8.1 ). WARNING: FETAL TOXICITY See full prescribing information for complete boxed warning. When pregnancy is detected, discontinue olmesartan medoxomil tablets as soon as possible ( 5.1 , 8.1 ). Drugs that act directly on the renin-angiotensin system can ca",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05a807bf-5175-43a2-a676-215bba2645a8",
+   "summary": "The label for Inventia Healthcare Limited's olmesartan medoxomil was updated, and its boxed warning covers fetal toxicity.",
+   "name_matches_source": true
+  },
+  {
+   "id": "1523a2b4-f9d6-4d3c-a370-df579ed36911@20261112",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261112",
+   "name": "Amitriptyline Hydrochloride",
+   "facts": "Updated label for Amitriptyline Hydrochloride (PD-Rx Pharmaceuticals, Inc.). Boxed warning: Suicidality and Antidepressant Drugs: Antidepressants increased the risk compared to placebo of suicidal thinking and behavior (suicidality) in children, adolescents, and young adults in short-term studies of major depressive disorder (MDD) and other psychiatric disorders. Anyone considering the use of amitriptyline hydrochloride tablets or any other antidepressant in a child, adolescent, or young adult must balance this risk with the clinical need. Short-term studies did not show an increase in",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1523a2b4-f9d6-4d3c-a370-df579ed36911",
+   "summary": "The label for PD-Rx Pharmaceuticals, Inc.'s amitriptyline hydrochloride was updated, and its boxed warning covers suicidality and antidepressant drugs.",
+   "name_matches_source": true
+  },
+  {
+   "id": "15e4c3a3-7d64-471e-bfdf-6156731e24aa@20261116",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261116",
+   "name": "FUROSEMIDE",
+   "facts": "Updated label for FUROSEMIDE (Henry Schein, Inc.). Boxed warning: BOXED WARNING WARNING Furosemide is a potent diuretic which, if given in excessive amounts, can lead to a profound diuresis with water and electrolyte depletion. Therefore, careful medical supervision is required and dose and dose schedule must be adjusted to the individual patient\u2019s needs. (See DOSAGE AND ADMINISTRATION.)",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15e4c3a3-7d64-471e-bfdf-6156731e24aa",
+   "summary": "The label for Henry Schein, Inc.'s furosemide was updated, and its boxed warning covers profound diuresis with water and electrolyte depletion.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "These label updates are important for pharma safety and labeling teams monitoring boxed warning disclosures for olmesartan medoxomil, amitriptyline hydrochloride, and furosemide [05a807bf-5175-43a2-a676-215bba2645a8@20261120, 1523a2b4-f9d6-4d3c-a370-df579ed36911@20261112, 15e4c3a3-7d64-471e-bfdf-6156731e24aa@20261116].",
+  "sources": [
+   {
+    "id": "05a807bf-5175-43a2-a676-215bba2645a8@20261120",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05a807bf-5175-43a2-a676-215bba2645a8"
+   },
+   {
+    "id": "1523a2b4-f9d6-4d3c-a370-df579ed36911@20261112",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1523a2b4-f9d6-4d3c-a370-df579ed36911"
+   },
+   {
+    "id": "15e4c3a3-7d64-471e-bfdf-6156731e24aa@20261116",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15e4c3a3-7d64-471e-bfdf-6156731e24aa"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 3,
+  "linked_to_source": 3,
+  "name_matches_source": 3,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 675,
+  "tokens_out": 612,
+  "usd": 0.00173,
+  "inr": 0.154
+ }
+}
