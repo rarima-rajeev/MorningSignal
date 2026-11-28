@@ -1,0 +1,85 @@
+{
+ "date": "2026-11-28",
+ "mode": "Live run",
+ "run_at": "2026-11-28T19:28:11+00:00",
+ "trigger": "schedule",
+ "model": "gemini-3.8-flash",
+ "status": "ok",
+ "items": [
+  {
+   "id": "00960fbd-a5da-408b-9867-62982f20906f@20261123",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261123",
+   "name": "Lorazepam",
+   "facts": "Updated label for Lorazepam (Preferred Pharmaceuticals, Inc.). Boxed warning: WARNING: RISKS FROM CONCOMITANT USE WITH OPIOIDS; ABUSE, MISUSE, AND ADDICTION; and DEPENDENCE AND WITHDRAWAL REACTIONS \u2022 Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing of these drugs for patients for whom alternative treatment options are inadequate. Limit dosages and durations to the minimum required. Follow patients for signs and symptoms of respiratory depression and sedation (see WARNIN",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00960fbd-a5da-408b-9867-62982f20906f",
+   "summary": "Preferred Pharmaceuticals, Inc. updated the label for Lorazepam, which features a boxed warning regarding concomitant use with opioids, abuse, misuse, addiction, dependence, and withdrawal.",
+   "name_matches_source": true
+  },
+  {
+   "id": "07593aa4-f2c4-4d6e-b186-ab2a4ecaa38a@20261124",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261124",
+   "name": "MORPHINE SULFATE",
+   "facts": "Updated label for MORPHINE SULFATE (Ascend Laboratories, LLC). Boxed warning: WARNING: SERIOUS AND LIFE-THREATENING RISKS FROM USE OF MORPHINE SULFATE TABLETS Addiction, Abuse, and Misuse Because the use of morphine sulfate tablets exposes patients and other users to the risks of opioid addiction, abuse, and misuse, which can lead to overdose and death, assess each patient\u2019s risk prior to prescribing and reassess all patients regularly for the development of these behaviors and conditions [see Warnings and Precautions ( 5.1 )]. Life-Threatening Respiratory Depression Seri",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07593aa4-f2c4-4d6e-b186-ab2a4ecaa38a",
+   "summary": "Ascend Laboratories, LLC updated the label for Morphine Sulfate, which includes a boxed warning covering addiction, abuse, misuse, and life-threatening respiratory depression.",
+   "name_matches_source": true
+  },
+  {
+   "id": "0ecccd98-4a18-4d03-8c3e-20bf1759e58c@20261123",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261123",
+   "name": "Diclofenac Sodium",
+   "facts": "Updated label for Diclofenac Sodium (NorthStar Rx LLC). Boxed warning: WARNING: RISK OF SERIOUS CARDIOVASCULAR AND GASTROINTESTINAL EVENTS Cardiovascular Thrombotic Events Nonsteroidal anti-inflammatory drugs (NSAIDs) cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use. (see WARNINGS ). Diclofenac sodium delayed-release tablets are contraindicated in the setting of coronary artery bypass graft (CABG) surgery (",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ecccd98-4a18-4d03-8c3e-20bf1759e58c",
+   "summary": "NorthStar Rx LLC updated the label for Diclofenac Sodium, which carries a boxed warning on risks of serious cardiovascular and gastrointestinal events.",
+   "name_matches_source": true
+  },
+  {
+   "id": "10ea9d83-19c3-4f3b-a1cc-cfc48b42507f@20261123",
+   "kind": "Label update (label has a boxed warning)",
+   "date": "20261123",
+   "name": "Mirtazapine",
+   "facts": "Updated label for Mirtazapine (REMEDYREPACK INC.). Boxed warning: WARNING: SUICIDAL THOUGHTS AND BEHAVIORS Antidepressants increased the risk of suicidal thoughts and behaviors in pediatric and young adult patients in short-term studies. Closely monitor all antidepressant-treated patients for clinical worsening, and for emergence of suicidal thoughts and behaviors [see Warnings and Precautions (5.1) ] . Mirtazapine tablets are not approved for use in pediatric patients [see Use in Specific Populations (8.4) ]. WARNING: SUICIDAL THOUGHTS AND BEHAVIORS See full ",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10ea9d83-19c3-4f3b-a1cc-cfc48b42507f",
+   "summary": "REMEDYREPACK INC. updated the label for Mirtazapine, which has a boxed warning concerning suicidal thoughts and behaviors in pediatric and young adult patients.",
+   "name_matches_source": true
+  }
+ ],
+ "why_it_matters": {
+  "text": "These safety label updates are critical for pharma teams monitoring safety and labeling compliance for drugs with severe boxed warning risks [00960fbd-a5da-408b-9867-62982f20906f@20261123, 07593aa4-f2c4-4d6e-b186-ab2a4ecaa38a@20261124, 0ecccd98-4a18-4d03-8c3e-20bf1759e58c@20261123, 10ea9d83-19c3-4f3b-a1cc-cfc48b42507f@20261123].",
+  "sources": [
+   {
+    "id": "00960fbd-a5da-408b-9867-62982f20906f@20261123",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00960fbd-a5da-408b-9867-62982f20906f"
+   },
+   {
+    "id": "07593aa4-f2c4-4d6e-b186-ab2a4ecaa38a@20261124",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07593aa4-f2c4-4d6e-b186-ab2a4ecaa38a"
+   },
+   {
+    "id": "0ecccd98-4a18-4d03-8c3e-20bf1759e58c@20261123",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ecccd98-4a18-4d03-8c3e-20bf1759e58c"
+   },
+   {
+    "id": "10ea9d83-19c3-4f3b-a1cc-cfc48b42507f@20261123",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10ea9d83-19c3-4f3b-a1cc-cfc48b42507f"
+   }
+  ]
+ },
+ "checks": {
+  "lines": 4,
+  "linked_to_source": 4,
+  "name_matches_source": 4,
+  "dropped_unsourced": 0,
+  "missing_from_ai": 0,
+  "why_it_matters_cited": true
+ },
+ "cost": {
+  "tokens_in": 866,
+  "tokens_out": 702,
+  "usd": 0.00201,
+  "inr": 0.179
+ }
+}
